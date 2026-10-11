@@ -1,0 +1,10 @@
+{
+  "block.archivar.storage_interface": "Storage Interface",
+  "key.archivar.open_terminal": "Open Archive Terminal",
+  "category.archivar.general": "Archivar",
+  "gui.archivar.terminal_title": "Archivar \u2014 Crafting Terminal",
+  "gui.archivar.crafting": "Crafting",
+  "gui.archivar.clear": "Clear",
+  "gui.archivar.inventory": "Player Inventory",
+  "message.archivar.interface_info": "\u00a7b[Archivar] \u00a77Storage Interface active. Connect hoppers or pipes to pump items into the archive."
+}

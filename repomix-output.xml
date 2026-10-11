@@ -1,0 +1,3446 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+gradle/
+  wrapper/
+    gradle-wrapper.jar
+    gradle-wrapper.properties
+run/
+  config/
+    fabric/
+      indigo-renderer.properties
+  data/
+    fabricDefaultResourcePacks.dat
+  downloads/
+    log.json
+  logs/
+    2026-10-11-1.log.gz
+    2026-10-11-2.log.gz
+    debug-1.log.gz
+    debug-2.log.gz
+  saves/
+    New World/
+      advancements/
+        2a040a11-2e73-3076-950d-54036bd62bd7.json
+        8dea17cd-e1ef-3064-95ba-e1811660f4f6.json
+        aa0974cf-bafe-3f00-bd4a-65b146355415.json
+      data/
+        archivar_storage.dat
+        raids.dat
+      DIM-1/
+        data/
+          raids.dat
+      DIM1/
+        data/
+          raids_end.dat
+      entities/
+        r.-1.-1.mca
+        r.-1.0.mca
+        r.0.-1.mca
+        r.0.0.mca
+      playerdata/
+        2a040a11-2e73-3076-950d-54036bd62bd7.dat
+        2a040a11-2e73-3076-950d-54036bd62bd7.dat_old
+        8dea17cd-e1ef-3064-95ba-e1811660f4f6.dat
+        8dea17cd-e1ef-3064-95ba-e1811660f4f6.dat_old
+        aa0974cf-bafe-3f00-bd4a-65b146355415.dat
+        aa0974cf-bafe-3f00-bd4a-65b146355415.dat_old
+      poi/
+        r.-1.-1.mca
+        r.-1.0.mca
+        r.0.-1.mca
+        r.0.0.mca
+      region/
+        r.-1.-1.mca
+        r.-1.0.mca
+        r.0.-1.mca
+        r.0.0.mca
+      stats/
+        2a040a11-2e73-3076-950d-54036bd62bd7.json
+        8dea17cd-e1ef-3064-95ba-e1811660f4f6.json
+        aa0974cf-bafe-3f00-bd4a-65b146355415.json
+      icon.png
+      level.dat
+      level.dat_old
+      session.lock
+  screenshots/
+    2026-10-11_13.38.16.png
+  command_history.txt
+  options.txt
+  usercache.json
+src/
+  main/
+    java/
+      net/
+        archivar/
+          block/
+            StorageInterfaceBlock.java
+            StorageInterfaceBlockEntity.java
+          client/
+            ArchivarClient.java
+            ArchivarTerminalScreen.java
+          network/
+            ArchivarPayloads.java
+          storage/
+            ArchivarData.java
+          Archivar.java
+    resources/
+      assets/
+        archivar/
+          blockstates/
+            storage_interface.json
+          lang/
+            de_de.json
+            en_us.json
+          models/
+            block/
+              storage_interface.json
+            item/
+              storage_interface.json
+      data/
+        archivar/
+          loot_table/
+            blocks/
+              storage_interface.json
+          recipe/
+            storage_interface.json
+      fabric.mod.json
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
+python_helper.py
+settings.gradle
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="gradle/wrapper/gradle-wrapper.properties">
+distributionBase=GRADLE_USER_HOME
+distributionPath=wrapper/dists
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.12-bin.zip
+networkTimeout=10000
+validateDistributionUrl=true
+zipStoreBase=GRADLE_USER_HOME
+zipStorePath=wrapper/dists
+</file>
+
+<file path="run/config/fabric/indigo-renderer.properties">
+#Indigo properties file
+#Sun Oct 11 16:20:38 CEST 2026
+always-tesselate-blocks=auto
+ambient-occlusion-mode=hybrid
+debug-compare-lighting=auto
+fix-exterior-vertex-lighting=auto
+fix-luminous-block-ambient-occlusion=auto
+fix-mean-light-calculation=auto
+fix-smooth-lighting-offset=auto
+</file>
+
+<file path="run/downloads/log.json">
+
+</file>
+
+<file path="run/saves/New World/advancements/2a040a11-2e73-3076-950d-54036bd62bd7.json">
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-10-11 13:37:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_plains": "2026-10-11 13:37:51 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3953
+}
+</file>
+
+<file path="run/saves/New World/advancements/8dea17cd-e1ef-3064-95ba-e1811660f4f6.json">
+{
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-10-11 16:20:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_plains": "2026-10-11 16:21:08 +0200",
+      "minecraft:snowy_taiga": "2026-10-11 16:20:54 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-10-11 16:21:08 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}
+</file>
+
+<file path="run/saves/New World/advancements/aa0974cf-bafe-3f00-bd4a-65b146355415.json">
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-10-11 13:42:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_plains": "2026-10-11 13:42:14 +0200",
+      "minecraft:snowy_taiga": "2026-10-11 13:44:46 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3953
+}
+</file>
+
+<file path="run/saves/New World/poi/r.-1.-1.mca">
+
+</file>
+
+<file path="run/saves/New World/stats/2a040a11-2e73-3076-950d-54036bd62bd7.json">
+{"stats":{"minecraft:used":{"minecraft:hopper":1,"archivar:storage_interface":1},"minecraft:custom":{"minecraft:time_since_rest":2121,"minecraft:inspect_hopper":2,"minecraft:crouch_one_cm":44,"minecraft:leave_game":1,"minecraft:play_time":2121,"minecraft:time_since_death":2121,"minecraft:walk_one_cm":126,"minecraft:sneak_time":48,"minecraft:total_world_time":2166}},"DataVersion":3953}
+</file>
+
+<file path="run/saves/New World/stats/8dea17cd-e1ef-3064-95ba-e1811660f4f6.json">
+{"stats":{"minecraft:used":{"minecraft:netherite_pickaxe":9},"minecraft:custom":{"minecraft:jump":3,"minecraft:time_since_rest":953,"minecraft:leave_game":1,"minecraft:sprint_one_cm":679,"minecraft:play_time":953,"minecraft:time_since_death":953,"minecraft:walk_one_cm":1459,"minecraft:total_world_time":968,"minecraft:fly_one_cm":173},"minecraft:mined":{"minecraft:stone":9},"minecraft:picked_up":{"minecraft:cobblestone":9}},"DataVersion":3953}
+</file>
+
+<file path="run/saves/New World/stats/aa0974cf-bafe-3f00-bd4a-65b146355415.json">
+{"stats":{"minecraft:picked_up":{"minecraft:hopper":1},"minecraft:custom":{"minecraft:jump":12,"minecraft:time_since_rest":3122,"minecraft:inspect_hopper":3,"minecraft:leave_game":1,"minecraft:sprint_one_cm":3165,"minecraft:play_time":3122,"minecraft:time_since_death":3122,"minecraft:walk_one_cm":829,"minecraft:sneak_time":33,"minecraft:total_world_time":3185,"minecraft:fall_one_cm":3296,"minecraft:fly_one_cm":3384},"minecraft:mined":{"minecraft:hopper":1},"minecraft:used":{"minecraft:netherite_pickaxe":2}},"DataVersion":3953}
+</file>
+
+<file path="run/saves/New World/session.lock">
+☃
+</file>
+
+<file path="run/command_history.txt">
+/give @s archivar:storage_interface
+/give @s minecraft:hopper 64
+/give @s netherite_pickaxe
+/give @s archivar:storage_interface 64
+/give @s minecraft:acacia_button 64
+/give @s minecraft:acacia_door 64
+/give @s minecraft:acacia_fence 64
+/give @s minecraft:acacia_fence_gate 64
+</file>
+
+<file path="run/options.txt">
+version:3953
+ao:true
+biomeBlendRadius:2
+enableVsync:false
+entityDistanceScaling:1.0
+entityShadows:true
+forceUnicodeFont:false
+japaneseGlyphVariants:false
+fov:0.0
+fovEffectScale:0.0
+darknessEffectScale:0.0
+glintSpeed:0.5
+glintStrength:0.75
+prioritizeChunkUpdates:0
+fullscreen:false
+gamma:1.0
+graphicsMode:0
+guiScale:2
+maxFps:260
+mipmapLevels:4
+narrator:0
+particles:0
+reducedDebugInfo:false
+renderClouds:"false"
+renderDistance:12
+simulationDistance:12
+screenEffectScale:0.0
+soundDevice:""
+autoJump:false
+operatorItemsTab:false
+autoSuggestions:true
+chatColors:true
+chatLinks:true
+chatLinksPrompt:true
+discrete_mouse_scroll:false
+invertYMouse:false
+realmsNotifications:true
+showSubtitles:false
+directionalAudio:false
+touchscreen:false
+bobView:false
+toggleCrouch:false
+toggleSprint:true
+darkMojangStudiosBackground:false
+hideLightningFlashes:false
+hideSplashTexts:false
+mouseSensitivity:0.5
+damageTiltStrength:1.0
+highContrast:false
+narratorHotkey:true
+resourcePacks:["fabric"]
+incompatibleResourcePacks:[]
+lastServer:
+lang:en_us
+chatVisibility:0
+chatOpacity:1.0
+chatLineSpacing:0.0
+textBackgroundOpacity:0.5
+backgroundForChatOnly:true
+hideServerAddress:false
+advancedItemTooltips:false
+pauseOnLostFocus:true
+overrideWidth:0
+overrideHeight:0
+chatHeightFocused:1.0
+chatDelay:0.0
+chatHeightUnfocused:0.4375
+chatScale:1.0
+chatWidth:1.0
+notificationDisplayTime:1.0
+useNativeTransport:true
+mainHand:"right"
+attackIndicator:1
+tutorialStep:punch_tree
+mouseWheelSensitivity:1.0
+rawMouseInput:true
+glDebugVerbosity:1
+skipMultiplayerWarning:false
+hideMatchedNames:true
+joinedFirstServer:true
+hideBundleTutorial:false
+syncChunkWrites:true
+showAutosaveIndicator:true
+allowServerListing:true
+onlyShowSecureChat:false
+panoramaScrollSpeed:1.0
+telemetryOptInExtra:false
+onboardAccessibility:false
+menuBackgroundBlurriness:0
+key_key.attack:key.mouse.left
+key_key.use:key.mouse.right
+key_key.forward:key.keyboard.w
+key_key.left:key.keyboard.a
+key_key.back:key.keyboard.s
+key_key.right:key.keyboard.d
+key_key.jump:key.keyboard.space
+key_key.sneak:key.keyboard.left.shift
+key_key.sprint:key.mouse.4
+key_key.drop:key.keyboard.q
+key_key.inventory:key.keyboard.e
+key_key.chat:key.keyboard.t
+key_key.playerlist:key.keyboard.unknown
+key_key.pickItem:key.mouse.middle
+key_key.command:key.keyboard.slash
+key_key.socialInteractions:key.keyboard.unknown
+key_key.screenshot:key.keyboard.f2
+key_key.togglePerspective:key.keyboard.f5
+key_key.smoothCamera:key.keyboard.unknown
+key_key.fullscreen:key.keyboard.f11
+key_key.spectatorOutlines:key.keyboard.unknown
+key_key.swapOffhand:key.keyboard.f
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.loadToolbarActivator:key.keyboard.unknown
+key_key.advancements:key.keyboard.l
+key_key.hotbar.1:key.keyboard.1
+key_key.hotbar.2:key.keyboard.2
+key_key.hotbar.3:key.keyboard.3
+key_key.hotbar.4:key.keyboard.4
+key_key.hotbar.5:key.keyboard.5
+key_key.hotbar.6:key.keyboard.6
+key_key.hotbar.7:key.keyboard.7
+key_key.hotbar.8:key.keyboard.8
+key_key.hotbar.9:key.keyboard.9
+key_key.archivar.open_terminal:key.keyboard.k
+soundCategory_master:1.0
+soundCategory_music:1.0
+soundCategory_record:1.0
+soundCategory_weather:1.0
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:1.0
+soundCategory_voice:1.0
+modelPart_cape:true
+modelPart_jacket:true
+modelPart_left_sleeve:true
+modelPart_right_sleeve:true
+modelPart_left_pants_leg:true
+modelPart_right_pants_leg:true
+modelPart_hat:true
+</file>
+
+<file path="run/usercache.json">
+[{"name":"Player872","uuid":"8dea17cd-e1ef-3064-95ba-e1811660f4f6","expiresOn":"2026-11-11 16:20:53 +0100"},{"name":"Player587","uuid":"aa0974cf-bafe-3f00-bd4a-65b146355415","expiresOn":"2026-11-11 13:42:13 +0100"},{"name":"Player206","uuid":"2a040a11-2e73-3076-950d-54036bd62bd7","expiresOn":"2026-11-11 13:37:50 +0100"}]
+</file>
+
+<file path="src/main/java/net/archivar/block/StorageInterfaceBlock.java">
+package net.archivar.block;
+
+import com.mojang.serialization.MapCodec;
+import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.BaseEntityBlock;
+import net.minecraft.world.level.block.RenderShape;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityTicker;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.BlockHitResult;
+
+public class StorageInterfaceBlock extends BaseEntityBlock {
+    public static final MapCodec<StorageInterfaceBlock> CODEC = simpleCodec(StorageInterfaceBlock::new);
+
+    public StorageInterfaceBlock(Properties properties) {
+        super(properties);
+    }
+
+    @Override
+    protected MapCodec<? extends BaseEntityBlock> codec() {
+        return CODEC;
+    }
+
+    @Override
+    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+        return new StorageInterfaceBlockEntity(pos, state);
+    }
+
+    @Override
+    public RenderShape getRenderShape(BlockState state) {
+        return RenderShape.MODEL;
+    }
+
+    @Override
+    public void setPlacedBy(Level level, BlockPos pos, BlockState state, LivingEntity placer, ItemStack stack) {
+        super.setPlacedBy(level, pos, state, placer, stack);
+        if (placer instanceof Player player && level.getBlockEntity(pos) instanceof StorageInterfaceBlockEntity be) {
+            be.setOwner(player.getUUID());
+        }
+    }
+
+    @Override
+    public InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hitResult) {
+        if (!level.isClientSide) {
+            player.sendSystemMessage(Component.translatable("message.archivar.interface_info"));
+        }
+        return InteractionResult.sidedSuccess(level.isClientSide);
+    }
+
+    @Override
+    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> type) {
+        return level.isClientSide ? null : (lvl, p, st, be) -> {
+            if (be instanceof StorageInterfaceBlockEntity sib) {
+                StorageInterfaceBlockEntity.tick(lvl, p, st, sib);
+            }
+        };
+    }
+}
+</file>
+
+<file path="src/main/java/net/archivar/block/StorageInterfaceBlockEntity.java">
+package net.archivar.block;
+
+import net.archivar.Archivar;
+import net.archivar.storage.ArchivarData;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.NonNullList;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.Container;
+import net.minecraft.world.ContainerHelper;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockState;
+
+import java.util.UUID;
+
+public class StorageInterfaceBlockEntity extends BlockEntity implements Container {
+    private UUID ownerUuid;
+    private final NonNullList<ItemStack> buffer = NonNullList.withSize(9, ItemStack.EMPTY);
+
+    public StorageInterfaceBlockEntity(BlockPos pos, BlockState state) {
+        super(Archivar.STORAGE_INTERFACE_BE, pos, state);
+    }
+
+    public void setOwner(UUID owner) {
+        this.ownerUuid = owner;
+        setChanged();
+    }
+
+    public UUID getOwner() {
+        return ownerUuid;
+    }
+
+    public static void tick(Level level, BlockPos pos, BlockState state, StorageInterfaceBlockEntity be) {
+        if (!(level instanceof ServerLevel sl) || be.ownerUuid == null) return;
+        ArchivarData data = ArchivarData.get(sl.getServer());
+        ArchivarData.Vault vault = data.getVault(be.ownerUuid);
+
+        for (int i = 0; i < be.buffer.size(); i++) {
+            ItemStack stack = be.buffer.get(i);
+            if (!stack.isEmpty()) {
+                vault.insert(stack);
+                be.buffer.set(i, ItemStack.EMPTY);
+                be.setChanged();
+            }
+        }
+    }
+
+    @Override
+    public int getContainerSize() {
+        return buffer.size();
+    }
+
+    @Override
+    public boolean isEmpty() {
+        for (ItemStack s : buffer) if (!s.isEmpty()) return false;
+        return true;
+    }
+
+    @Override
+    public ItemStack getItem(int slot) {
+        return buffer.get(slot);
+    }
+
+    @Override
+    public ItemStack removeItem(int slot, int amount) {
+        ItemStack res = ContainerHelper.removeItem(buffer, slot, amount);
+        setChanged();
+        return res;
+    }
+
+    @Override
+    public ItemStack removeItemNoUpdate(int slot) {
+        ItemStack res = ContainerHelper.takeItem(buffer, slot);
+        setChanged();
+        return res;
+    }
+
+    @Override
+    public void setItem(int slot, ItemStack stack) {
+        buffer.set(slot, stack);
+        if (stack.getCount() > getMaxStackSize()) {
+            stack.setCount(getMaxStackSize());
+        }
+        setChanged();
+    }
+
+    @Override
+    public boolean stillValid(Player player) {
+        // Nur Owner darf per Container (Hopper) auf den Buffer zugreifen
+        if (ownerUuid == null) return false;
+        return ownerUuid.equals(player.getUUID()) && Container.stillValidBlockEntity(this, player);
+    }
+
+    @Override
+    public void clearContent() {
+        buffer.clear();
+    }
+
+    @Override
+    protected void saveAdditional(CompoundTag tag, HolderLookup.Provider registries) {
+        super.saveAdditional(tag, registries);
+        if (ownerUuid != null) tag.putUUID("owner", ownerUuid);
+        // Buffer NICHT persistieren – ist nur Transit-Puffer für Hopper/Pipes.
+        // Items sind bereits im Vault (ArchivarData) gelandet.
+    }
+
+    @Override
+    protected void loadAdditional(CompoundTag tag, HolderLookup.Provider registries) {
+        super.loadAdditional(tag, registries);
+        if (tag.hasUUID("owner")) ownerUuid = tag.getUUID("owner");
+        // Buffer bleibt leer – keine Duplikation beim Laden.
+    }
+}
+</file>
+
+<file path="src/main/java/net/archivar/client/ArchivarClient.java">
+package net.archivar.client;
+
+import com.mojang.blaze3d.platform.InputConstants;
+import net.archivar.network.ArchivarPayloads;
+import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
+import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
+import net.minecraft.client.KeyMapping;
+import net.minecraft.client.Minecraft;
+import org.lwjgl.glfw.GLFW;
+
+public class ArchivarClient implements ClientModInitializer {
+    public static KeyMapping openTerminalKey;
+
+    @Override
+    public void onInitializeClient() {
+        openTerminalKey = KeyBindingHelper.registerKeyBinding(new KeyMapping(
+                "key.archivar.open_terminal",
+                InputConstants.Type.KEYSYM,
+                GLFW.GLFW_KEY_K,
+                "category.archivar.general"
+        ));
+
+        ClientTickEvents.END_CLIENT_TICK.register(client -> {
+            while (openTerminalKey.consumeClick()) {
+                if (client.player != null) {
+                    ClientPlayNetworking.send(new ArchivarPayloads.RequestOpenTerminalPayload());
+                }
+            }
+        });
+
+        ClientPlayNetworking.registerGlobalReceiver(ArchivarPayloads.SyncTerminalPayload.TYPE, (payload, context) -> {
+            context.client().execute(() -> {
+                Minecraft mc = Minecraft.getInstance();
+                if (mc.screen instanceof ArchivarTerminalScreen current) {
+                    current.updateData(payload.items(), payload.craftGrid());
+                } else {
+                    mc.setScreen(new ArchivarTerminalScreen(payload.items(), payload.craftGrid()));
+                }
+            });
+        });
+    }
+}
+</file>
+
+<file path="src/main/java/net/archivar/client/ArchivarTerminalScreen.java">
+package net.archivar.client;
+
+import net.archivar.network.ArchivarPayloads;
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
+import net.minecraft.ChatFormatting;
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.components.EditBox;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.CraftingInput;
+import net.minecraft.world.item.crafting.CraftingRecipe;
+import net.minecraft.world.item.crafting.RecipeHolder;
+import net.minecraft.world.item.crafting.RecipeType;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+
+public class ArchivarTerminalScreen extends Screen {
+    private final List<ArchivarPayloads.ItemEntry> rawItems;
+    private final List<ItemStack> craftGrid = new ArrayList<>();
+    private List<ArchivarPayloads.ItemEntry> filteredItems = new ArrayList<>();
+    private ItemStack craftResultPreview = ItemStack.EMPTY;
+
+    private EditBox searchBox;
+    private int scrollOffset = 0;
+    private boolean sortByCount = true;
+
+    // GUI Dimensionen (Perfekt aufgeteilte Zonen gegen jegliche Überlappung)
+    private static final int GUI_WIDTH = 224;
+    private static final int GUI_HEIGHT = 260;
+
+    private static final int COLS = 9;
+    private static final int STORAGE_ROWS = 4;
+    private static final int SLOT_SIZE = 18;
+
+    // Farbpalette
+    private static final int BG_PANEL = 0xF510141C;
+    private static final int BG_HEADER = 0xFF0A0D12;
+    private static final int BORDER_OUTER = 0xFF00E5FF;
+    private static final int BORDER_INNER = 0xFF1E2838;
+    private static final int SLOT_BG = 0xFF141A24;
+    private static final int SLOT_SHADOW = 0xFF070A0F;
+    private static final int SLOT_HIGHLIGHT = 0xFF263245;
+    private static final int HOVER_GLOW = 0x4400E5FF;
+    private static final int RESULT_SLOT_GLOW = 0x3300E5FF;
+
+    public ArchivarTerminalScreen(List<ArchivarPayloads.ItemEntry> items, List<ItemStack> craftGrid) {
+        super(Component.literal("Archivar Terminal"));
+        this.rawItems = new ArrayList<>(items);
+        this.craftGrid.addAll(craftGrid);
+        while (this.craftGrid.size() < 9) {
+            this.craftGrid.add(ItemStack.EMPTY);
+        }
+    }
+
+    public void updateData(List<ArchivarPayloads.ItemEntry> items, List<ItemStack> craftGrid) {
+        this.rawItems.clear();
+        this.rawItems.addAll(items);
+        this.craftGrid.clear();
+        this.craftGrid.addAll(craftGrid);
+        while (this.craftGrid.size() < 9) {
+            this.craftGrid.add(ItemStack.EMPTY);
+        }
+        filterAndSort();
+        updateCraftPreview();
+    }
+
+    @Override
+    protected void init() {
+        int left = (this.width - GUI_WIDTH) / 2;
+        int top = (this.height - GUI_HEIGHT) / 2;
+
+        // ZONE 1: HEADER CONTROLS
+        this.searchBox = new EditBox(this.font, left + 10, top + 17, 105, 12, Component.literal(""));
+        this.searchBox.setBordered(false);
+        this.searchBox.setTextColor(0xFFFFFF);
+        this.searchBox.setResponder(text -> {
+            this.scrollOffset = 0;
+            filterAndSort();
+        });
+        this.addRenderableWidget(this.searchBox);
+
+        // Sortier-Button
+        this.addRenderableWidget(Button.builder(Component.literal(sortByCount ? "# Menge" : "A-Z"), btn -> {
+            sortByCount = !sortByCount;
+            btn.setMessage(Component.literal(sortByCount ? "# Menge" : "A-Z"));
+            filterAndSort();
+        }).bounds(left + 120, top + 14, 46, 16).build());
+
+        // [Leeren] Button für Crafting-Gitter
+        this.addRenderableWidget(Button.builder(Component.literal("Leeren"), btn -> {
+            ClientPlayNetworking.send(new ArchivarPayloads.ClearCraftGridPayload());
+        }).bounds(left + 168, top + 14, 46, 16).build());
+
+        filterAndSort();
+        updateCraftPreview();
+    }
+
+    private void filterAndSort() {
+        String query = searchBox != null ? searchBox.getValue().toLowerCase().trim() : "";
+        filteredItems = rawItems.stream()
+                .filter(e -> query.isEmpty() || e.stack().getHoverName().getString().toLowerCase().contains(query))
+                .sorted(sortByCount
+                        ? Comparator.comparingLong(ArchivarPayloads.ItemEntry::count).reversed()
+                        : Comparator.comparing(e -> e.stack().getHoverName().getString()))
+                .toList();
+    }
+
+    private void updateCraftPreview() {
+        if (this.minecraft == null || this.minecraft.level == null) return;
+        CraftingInput input = CraftingInput.of(3, 3, this.craftGrid);
+        Optional<RecipeHolder<CraftingRecipe>> match = this.minecraft.level.getRecipeManager()
+                .getRecipeFor(RecipeType.CRAFTING, input, this.minecraft.level);
+
+        if (match.isPresent()) {
+            this.craftResultPreview = match.get().value().assemble(input, this.minecraft.level.registryAccess());
+        } else {
+            this.craftResultPreview = ItemStack.EMPTY;
+        }
+    }
+
+    @Override
+    public boolean mouseScrolled(double mouseX, double mouseY, double horizontalAmount, double verticalAmount) {
+        int maxRows = (int) Math.ceil((double) filteredItems.size() / COLS);
+        if (maxRows > STORAGE_ROWS) {
+            if (verticalAmount < 0 && scrollOffset < maxRows - STORAGE_ROWS) {
+                scrollOffset++;
+                return true;
+            } else if (verticalAmount > 0 && scrollOffset > 0) {
+                scrollOffset--;
+                return true;
+            }
+        }
+        return super.mouseScrolled(mouseX, mouseY, horizontalAmount, verticalAmount);
+    }
+
+    @Override
+    public boolean mouseClicked(double mouseX, double mouseY, int button) {
+        int left = (this.width - GUI_WIDTH) / 2;
+        int top = (this.height - GUI_HEIGHT) / 2;
+
+        // 1. KLICK AUF ARCHIV-SLOTS (Zone 2: Y = 34..106)
+        int gridX = left + 8;
+        int gridY = top + 34;
+        for (int r = 0; r < STORAGE_ROWS; r++) {
+            for (int c = 0; c < COLS; c++) {
+                int sx = gridX + c * SLOT_SIZE;
+                int sy = gridY + r * SLOT_SIZE;
+                if (mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE) {
+                    int index = (scrollOffset + r) * COLS + c;
+                    if (index >= 0 && index < filteredItems.size()) {
+                        ArchivarPayloads.ItemEntry entry = filteredItems.get(index);
+                        int amount = (button == 1) ? 1 : (hasShiftDown() ? 64 : entry.stack().getMaxStackSize());
+                        ClientPlayNetworking.send(new ArchivarPayloads.ExtractItemPayload(entry.stack(), amount));
+                        return true;
+                    }
+                }
+            }
+        }
+
+        // 2. KLICK AUF 3x3 CRAFTING MATRIX (Zone 3: Y = 112..166)
+        int craftX = left + 46;
+        int craftY = top + 112;
+        for (int r = 0; r < 3; r++) {
+            for (int c = 0; c < 3; c++) {
+                int sx = craftX + c * SLOT_SIZE;
+                int sy = craftY + r * SLOT_SIZE;
+                if (mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE) {
+                    int slotIndex = r * 3 + c;
+                    ClientPlayNetworking.send(new ArchivarPayloads.ClickCraftSlotPayload(slotIndex, button, hasShiftDown()));
+                    return true;
+                }
+            }
+        }
+
+        // 3. KLICK AUF CRAFTING ERGEBNIS-SLOT (Zone 3: Y = 130)
+        int resultX = left + 144;
+        int resultY = top + 130;
+        if (mouseX >= resultX && mouseX < resultX + SLOT_SIZE && mouseY >= resultY && mouseY < resultY + SLOT_SIZE) {
+            if (!this.craftResultPreview.isEmpty()) {
+                ClientPlayNetworking.send(new ArchivarPayloads.TakeCraftResultPayload(hasShiftDown()));
+                return true;
+            }
+        }
+
+        // 4. SHIFT-KLICK AUF SPIELER-INVENTAR (Zone 4: Y = 180..252)
+        if (hasShiftDown() && this.minecraft != null && this.minecraft.player != null) {
+            int invX = left + 31;
+            int invY = top + 180;
+
+            // Hauptinventar
+            for (int r = 0; r < 3; r++) {
+                for (int c = 0; c < 9; c++) {
+                    int sx = invX + c * SLOT_SIZE;
+                    int sy = invY + r * SLOT_SIZE;
+                    if (mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE) {
+                        int slotIndex = 9 + r * 9 + c;
+                        ClientPlayNetworking.send(new ArchivarPayloads.InsertItemPayload(slotIndex));
+                        return true;
+                    }
+                }
+            }
+
+            // Hotbar
+            int hotbarY = top + 238;
+            for (int c = 0; c < 9; c++) {
+                int sx = invX + c * SLOT_SIZE;
+                if (mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= hotbarY && mouseY < hotbarY + SLOT_SIZE) {
+                    ClientPlayNetworking.send(new ArchivarPayloads.InsertItemPayload(c));
+                    return true;
+                }
+            }
+        }
+
+        return super.mouseClicked(mouseX, mouseY, button);
+    }
+
+    @Override
+    public void render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
+        super.render(graphics, mouseX, mouseY, partialTick);
+
+        int left = (this.width - GUI_WIDTH) / 2;
+        int top = (this.height - GUI_HEIGHT) / 2;
+
+        // 1. HAUPT-CHASSIS RAHMEN
+        graphics.fill(left, top, left + GUI_WIDTH, top + GUI_HEIGHT, BG_PANEL);
+        graphics.fill(left, top, left + GUI_WIDTH, top + 1, BORDER_OUTER);
+        graphics.fill(left, top + GUI_HEIGHT - 1, left + GUI_WIDTH, top + GUI_HEIGHT, BORDER_OUTER);
+        graphics.fill(left, top, left + 1, top + GUI_HEIGHT, BORDER_OUTER);
+        graphics.fill(left + GUI_WIDTH - 1, top, left + GUI_WIDTH, top + GUI_HEIGHT, BORDER_OUTER);
+
+        // Header Leiste
+        graphics.fill(left + 4, top + 4, left + GUI_WIDTH - 4, top + 32, BG_HEADER);
+        graphics.drawString(this.font, Component.literal("§bARCHIVAR §7| Crafting Terminal"), left + 8, top + 6, 0xFFFFFF);
+
+        // Suchfeld-Rahmen
+        graphics.fill(left + 8, top + 15, left + 116, top + 29, 0xFF000000);
+        graphics.fill(left + 7, top + 14, left + 117, top + 15, BORDER_INNER);
+        graphics.fill(left + 7, top + 29, left + 117, top + 30, BORDER_INNER);
+
+        // 2. ARCHIV GRID (4 Reihen x 9 Spalten = 36 Slots)
+        int gridX = left + 8;
+        int gridY = top + 34;
+        ItemStack hoveredStack = ItemStack.EMPTY;
+        long hoveredCount = 0;
+
+        for (int r = 0; r < STORAGE_ROWS; r++) {
+            for (int c = 0; c < COLS; c++) {
+                int sx = gridX + c * SLOT_SIZE;
+                int sy = gridY + r * SLOT_SIZE;
+                boolean isHovered = mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE;
+
+                drawBeveledSlot(graphics, sx, sy, isHovered);
+
+                int index = (scrollOffset + r) * COLS + c;
+                if (index < filteredItems.size()) {
+                    ArchivarPayloads.ItemEntry entry = filteredItems.get(index);
+                    graphics.renderItem(entry.stack(), sx + 1, sy + 1);
+
+                    String countText = formatCount(entry.count());
+                    graphics.drawString(this.font, countText, sx + 2, sy + 9, 0xFFFFFF, true);
+
+                    if (isHovered) {
+                        hoveredStack = entry.stack();
+                        hoveredCount = entry.count();
+                    }
+                }
+            }
+        }
+
+        // Scrollbar rechts
+        int scrollBarX = left + 172;
+        int scrollBarY = gridY;
+        int scrollBarHeight = STORAGE_ROWS * SLOT_SIZE;
+        graphics.fill(scrollBarX, scrollBarY, scrollBarX + 10, scrollBarY + scrollBarHeight, 0xFF080B10);
+
+        int maxRows = (int) Math.ceil((double) filteredItems.size() / COLS);
+        int thumbHeight = maxRows > STORAGE_ROWS ? Math.max(14, (STORAGE_ROWS * scrollBarHeight) / maxRows) : scrollBarHeight;
+        int thumbY = maxRows > STORAGE_ROWS ? scrollBarY + (scrollOffset * (scrollBarHeight - thumbHeight)) / (maxRows - STORAGE_ROWS) : scrollBarY;
+        graphics.fill(scrollBarX + 1, thumbY + 1, scrollBarX + 9, thumbY + thumbHeight - 1, BORDER_OUTER);
+
+        // 3. TRENNLINIE 1
+        graphics.fill(left + 6, top + 107, left + GUI_WIDTH - 6, top + 108, BORDER_INNER);
+
+        // 4. 3x3 CRAFTING MATRIX + RESULTAT
+        graphics.drawString(this.font, Component.literal("§bCrafting"), left + 8, top + 112, 0x00E5FF);
+        int craftX = left + 46;
+        int craftY = top + 112;
+
+        for (int r = 0; r < 3; r++) {
+            for (int c = 0; c < 3; c++) {
+                int sx = craftX + c * SLOT_SIZE;
+                int sy = craftY + r * SLOT_SIZE;
+                boolean isHovered = mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE;
+
+                drawBeveledSlot(graphics, sx, sy, isHovered);
+
+                int slot = r * 3 + c;
+                if (slot < this.craftGrid.size() && !this.craftGrid.get(slot).isEmpty()) {
+                    ItemStack st = this.craftGrid.get(slot);
+                    graphics.renderItem(st, sx + 1, sy + 1);
+                    graphics.renderItemDecorations(this.font, st, sx + 1, sy + 1);
+                    if (isHovered) hoveredStack = st;
+                }
+            }
+        }
+
+        // Crafting Pfeil
+        graphics.drawString(this.font, Component.literal("➔"), left + 116, top + 134, 0x00E5FF);
+
+        // Ergebnis-Slot
+        int resultX = left + 144;
+        int resultY = top + 130;
+        boolean resultHovered = mouseX >= resultX && mouseX < resultX + SLOT_SIZE && mouseY >= resultY && mouseY < resultY + SLOT_SIZE;
+
+        drawBeveledSlot(graphics, resultX, resultY, resultHovered);
+        graphics.fill(resultX + 1, resultY + 1, resultX + 17, resultY + 17, RESULT_SLOT_GLOW);
+
+        if (!this.craftResultPreview.isEmpty()) {
+            graphics.renderItem(this.craftResultPreview, resultX + 1, resultY + 1);
+            graphics.renderItemDecorations(this.font, this.craftResultPreview, resultX + 1, resultY + 1);
+            if (resultHovered) hoveredStack = this.craftResultPreview;
+        }
+
+        // 5. TRENNLINIE 2 & INVENTAR-BESCHRIFTUNG
+        graphics.fill(left + 6, top + 168, left + GUI_WIDTH - 6, top + 169, BORDER_INNER);
+        graphics.drawString(this.font, Component.literal("§7Spieler-Inventar"), left + 8, top + 171, 0x888888);
+
+        // 6. SPIELER-INVENTAR (Zentriert: X = left + 31)
+        int invX = left + 31;
+        int invY = top + 180;
+        ItemStack invHovered = ItemStack.EMPTY;
+
+        if (this.minecraft != null && this.minecraft.player != null) {
+            // Hauptinventar (3 Reihen)
+            for (int r = 0; r < 3; r++) {
+                for (int c = 0; c < 9; c++) {
+                    int sx = invX + c * SLOT_SIZE;
+                    int sy = invY + r * SLOT_SIZE;
+                    boolean isHovered = mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE;
+
+                    drawBeveledSlot(graphics, sx, sy, isHovered);
+
+                    int slot = 9 + r * 9 + c;
+                    ItemStack stack = this.minecraft.player.getInventory().getItem(slot);
+                    if (!stack.isEmpty()) {
+                        graphics.renderItem(stack, sx + 1, sy + 1);
+                        graphics.renderItemDecorations(this.font, stack, sx + 1, sy + 1);
+                        if (isHovered) invHovered = stack;
+                    }
+                }
+            }
+
+            // Hotbar (1 Reihe)
+            int hotbarY = top + 238;
+            for (int c = 0; c < 9; c++) {
+                int sx = invX + c * SLOT_SIZE;
+                boolean isHovered = mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= hotbarY && mouseY < hotbarY + SLOT_SIZE;
+
+                drawBeveledSlot(graphics, sx, hotbarY, isHovered);
+
+                ItemStack stack = this.minecraft.player.getInventory().getItem(c);
+                if (!stack.isEmpty()) {
+                    graphics.renderItem(stack, sx + 1, hotbarY + 1);
+                    graphics.renderItemDecorations(this.font, stack, sx + 1, hotbarY + 1);
+                    if (isHovered) invHovered = stack;
+                }
+            }
+        }
+
+        // 7. TOOLTIPS RENDERN
+        if (!hoveredStack.isEmpty()) {
+            List<Component> tooltip = new ArrayList<>(Screen.getTooltipFromItem(this.minecraft, hoveredStack));
+            if (hoveredCount > 0) {
+                tooltip.add(Component.literal("§bGelagert: §f" + String.format("%,d", hoveredCount)).withStyle(ChatFormatting.GRAY));
+            }
+            graphics.renderComponentTooltip(this.font, tooltip, mouseX, mouseY);
+        } else if (!invHovered.isEmpty()) {
+            graphics.renderTooltip(this.font, invHovered, mouseX, mouseY);
+        }
+    }
+
+    private static void drawBeveledSlot(GuiGraphics graphics, int x, int y, boolean hovered) {
+        graphics.fill(x, y, x + SLOT_SIZE, y + SLOT_SIZE, SLOT_BG);
+        graphics.fill(x, y, x + SLOT_SIZE, y + 1, SLOT_SHADOW);
+        graphics.fill(x, y, x + 1, y + SLOT_SIZE, SLOT_SHADOW);
+        graphics.fill(x, y + SLOT_SIZE - 1, x + SLOT_SIZE, y + SLOT_SIZE, SLOT_HIGHLIGHT);
+        graphics.fill(x + SLOT_SIZE - 1, y, x + SLOT_SIZE, y + SLOT_SIZE, SLOT_HIGHLIGHT);
+        if (hovered) {
+            graphics.fill(x + 1, y + 1, x + SLOT_SIZE - 1, y + SLOT_SIZE - 1, HOVER_GLOW);
+        }
+    }
+
+    private static String formatCount(long count) {
+        if (count >= 1_000_000) return String.format("%.1fM", count / 1_000_000.0);
+        if (count >= 1_000) return String.format("%.1fk", count / 1_000.0);
+        return String.valueOf(count);
+    }
+
+    @Override
+    public boolean isPauseScreen() {
+        return false;
+    }
+}
+</file>
+
+<file path="src/main/java/net/archivar/network/ArchivarPayloads.java">
+package net.archivar.network;
+
+import net.archivar.Archivar;
+import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.network.codec.ByteBufCodecs;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+import net.minecraft.world.item.ItemStack;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public final class ArchivarPayloads {
+    private ArchivarPayloads() {}
+
+    public record ItemEntry(ItemStack stack, long count) {
+        public static final StreamCodec<RegistryFriendlyByteBuf, ItemEntry> STREAM_CODEC = StreamCodec.of(
+                (buf, val) -> {
+                    ItemStack.OPTIONAL_STREAM_CODEC.encode(buf, val.stack);
+                    buf.writeVarLong(val.count);
+                },
+                buf -> new ItemEntry(ItemStack.OPTIONAL_STREAM_CODEC.decode(buf), buf.readVarLong())
+        );
+    }
+
+    /** Server -> Client: Synchronisiert Lagerinhalte UND das 3x3 Crafting-Gitter */
+    public record SyncTerminalPayload(List<ItemEntry> items, List<ItemStack> craftGrid) implements CustomPacketPayload {
+        public static final Type<SyncTerminalPayload> TYPE = new Type<>(Archivar.id("sync_terminal"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, SyncTerminalPayload> STREAM_CODEC = StreamCodec.of(
+                (buf, val) -> {
+                    buf.writeVarInt(val.items.size());
+                    for (ItemEntry e : val.items) {
+                        ItemEntry.STREAM_CODEC.encode(buf, e);
+                    }
+                    buf.writeVarInt(val.craftGrid.size());
+                    for (ItemStack s : val.craftGrid) {
+                        ItemStack.OPTIONAL_STREAM_CODEC.encode(buf, s);
+                    }
+                },
+                buf -> {
+                    int size = buf.readVarInt();
+                    List<ItemEntry> list = new ArrayList<>(size);
+                    for (int i = 0; i < size; i++) {
+                        list.add(ItemEntry.STREAM_CODEC.decode(buf));
+                    }
+                    int craftSize = buf.readVarInt();
+                    List<ItemStack> craftList = new ArrayList<>(craftSize);
+                    for (int i = 0; i < craftSize; i++) {
+                        craftList.add(ItemStack.OPTIONAL_STREAM_CODEC.decode(buf));
+                    }
+                    return new SyncTerminalPayload(list, craftList);
+                }
+        );
+
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    public record RequestOpenTerminalPayload() implements CustomPacketPayload {
+        public static final Type<RequestOpenTerminalPayload> TYPE = new Type<>(Archivar.id("open_terminal"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, RequestOpenTerminalPayload> STREAM_CODEC = StreamCodec.unit(new RequestOpenTerminalPayload());
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    public record ExtractItemPayload(ItemStack sample, int amount) implements CustomPacketPayload {
+        public static final Type<ExtractItemPayload> TYPE = new Type<>(Archivar.id("extract_item"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, ExtractItemPayload> STREAM_CODEC = StreamCodec.composite(
+                ItemStack.OPTIONAL_STREAM_CODEC, ExtractItemPayload::sample,
+                ByteBufCodecs.VAR_INT, ExtractItemPayload::amount,
+                ExtractItemPayload::new
+        );
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    public record InsertItemPayload(int slotIndex) implements CustomPacketPayload {
+        public static final Type<InsertItemPayload> TYPE = new Type<>(Archivar.id("insert_item"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, InsertItemPayload> STREAM_CODEC = StreamCodec.composite(
+                ByteBufCodecs.VAR_INT, InsertItemPayload::slotIndex,
+                InsertItemPayload::new
+        );
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    /** Client -> Server: Klick auf einen der 9 Crafting-Grid Slots (0..8) */
+    public record ClickCraftSlotPayload(int slotIndex, int button, boolean shift) implements CustomPacketPayload {
+        public static final Type<ClickCraftSlotPayload> TYPE = new Type<>(Archivar.id("click_craft_slot"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, ClickCraftSlotPayload> STREAM_CODEC = StreamCodec.composite(
+                ByteBufCodecs.VAR_INT, ClickCraftSlotPayload::slotIndex,
+                ByteBufCodecs.VAR_INT, ClickCraftSlotPayload::button,
+                ByteBufCodecs.BOOL, ClickCraftSlotPayload::shift,
+                ClickCraftSlotPayload::new
+        );
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    /** Client -> Server: Klick auf den Crafting-Ergebnis-Slot */
+    public record TakeCraftResultPayload(boolean shift) implements CustomPacketPayload {
+        public static final Type<TakeCraftResultPayload> TYPE = new Type<>(Archivar.id("take_craft_result"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, TakeCraftResultPayload> STREAM_CODEC = StreamCodec.composite(
+                ByteBufCodecs.BOOL, TakeCraftResultPayload::shift,
+                TakeCraftResultPayload::new
+        );
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    /** Client -> Server: Räumt das 3x3 Gitter zurück ins Lager */
+    public record ClearCraftGridPayload() implements CustomPacketPayload {
+        public static final Type<ClearCraftGridPayload> TYPE = new Type<>(Archivar.id("clear_craft_grid"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, ClearCraftGridPayload> STREAM_CODEC = StreamCodec.unit(new ClearCraftGridPayload());
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+}
+</file>
+
+<file path="src/main/java/net/archivar/storage/ArchivarData.java">
+package net.archivar.storage;
+
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.NonNullList;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.ListTag;
+import net.minecraft.nbt.Tag;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.ContainerHelper;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.saveddata.SavedData;
+
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+
+public class ArchivarData extends SavedData {
+
+    public static class Entry {
+        public ItemStack template;
+        public long count;
+
+        public Entry(ItemStack template, long count) {
+            this.template = template.copy();
+            this.template.setCount(1);
+            this.count = count;
+        }
+    }
+
+    public static class Vault {
+        public final List<Entry> items = new ArrayList<>();
+        // Persistentes 3x3 Crafting-Gitter (bleibt beim Schließen erhalten!)
+        public final NonNullList<ItemStack> craftingGrid = NonNullList.withSize(9, ItemStack.EMPTY);
+
+        public synchronized void insert(ItemStack stack) {
+            if (stack.isEmpty()) return;
+            for (Entry e : items) {
+                if (ItemStack.isSameItemSameComponents(e.template, stack)) {
+                    e.count += stack.getCount();
+                    return;
+                }
+            }
+            items.add(new Entry(stack, stack.getCount()));
+        }
+
+        public synchronized ItemStack extract(ItemStack sample, int maxAmount) {
+            for (Iterator<Entry> it = items.iterator(); it.hasNext(); ) {
+                Entry e = it.next();
+                if (ItemStack.isSameItemSameComponents(e.template, sample)) {
+                    int toTake = (int) Math.min(e.count, maxAmount);
+                    e.count -= toTake;
+                    ItemStack out = e.template.copy();
+                    out.setCount(toTake);
+                    if (e.count <= 0) {
+                        it.remove();
+                    }
+                    return out;
+                }
+            }
+            return ItemStack.EMPTY;
+        }
+
+        public synchronized List<Entry> getAll() {
+            return new ArrayList<>(items);
+        }
+    }
+
+    private final Map<UUID, Vault> vaults = new ConcurrentHashMap<>();
+
+    public ArchivarData() {
+    }
+
+    public static final SavedData.Factory<ArchivarData> FACTORY =
+            new SavedData.Factory<>(ArchivarData::new, ArchivarData::load, null);
+
+    public static ArchivarData get(MinecraftServer server) {
+        return server.overworld().getDataStorage().computeIfAbsent(FACTORY, "archivar_storage");
+    }
+
+    public Vault getVault(ServerPlayer player) {
+        UUID id = player.getUUID();
+        if (player.server.isSingleplayer()) {
+            id = UUID.fromString("00000000-0000-0000-0000-000000000000");
+        }
+        return vaults.computeIfAbsent(id, k -> new Vault());
+    }
+
+    public Vault getVault(UUID id) {
+        return vaults.computeIfAbsent(id, k -> new Vault());
+    }
+
+    @Override
+    public CompoundTag save(CompoundTag tag, HolderLookup.Provider registries) {
+        ListTag vaultList = new ListTag();
+        for (Map.Entry<UUID, Vault> en : vaults.entrySet()) {
+            CompoundTag vTag = new CompoundTag();
+            vTag.putUUID("owner", en.getKey());
+
+            // 1. Archiv Items
+            ListTag itemList = new ListTag();
+            for (Entry entry : en.getValue().items) {
+                CompoundTag itemTag = new CompoundTag();
+                Tag savedItem = entry.template.saveOptional(registries);
+                itemTag.put("item", savedItem);
+                itemTag.putLong("count", entry.count);
+                itemList.add(itemTag);
+            }
+            vTag.put("items", itemList);
+
+            // 2. Crafting Grid Slots
+            ContainerHelper.saveAllItems(vTag, en.getValue().craftingGrid, registries);
+
+            vaultList.add(vTag);
+        }
+        tag.put("vaults", vaultList);
+        return tag;
+    }
+
+    public static ArchivarData load(CompoundTag tag, HolderLookup.Provider registries) {
+        ArchivarData data = new ArchivarData();
+        ListTag vaultList = tag.getList("vaults", Tag.TAG_COMPOUND);
+        for (int i = 0; i < vaultList.size(); i++) {
+            CompoundTag vTag = vaultList.getCompound(i);
+            if (!vTag.hasUUID("owner")) continue;
+            UUID owner = vTag.getUUID("owner");
+            Vault vault = new Vault();
+
+            // 1. Archiv Items laden
+            ListTag itemList = vTag.getList("items", Tag.TAG_COMPOUND);
+            for (int j = 0; j < itemList.size(); j++) {
+                CompoundTag iTag = itemList.getCompound(j);
+                if (iTag.contains("item", Tag.TAG_COMPOUND)) {
+                    ItemStack parsed = ItemStack.parseOptional(registries, iTag.getCompound("item"));
+                    if (!parsed.isEmpty()) {
+                        long count = iTag.getLong("count");
+                        vault.items.add(new Entry(parsed, count));
+                    }
+                }
+            }
+
+            // 2. Crafting Grid laden
+            ContainerHelper.loadAllItems(vTag, vault.craftingGrid, registries);
+
+            data.vaults.put(owner, vault);
+        }
+        return data;
+    }
+}
+</file>
+
+<file path="src/main/java/net/archivar/Archivar.java">
+package net.archivar;
+
+import net.archivar.block.StorageInterfaceBlock;
+import net.archivar.block.StorageInterfaceBlockEntity;
+import net.archivar.network.ArchivarPayloads;
+import net.archivar.storage.ArchivarData;
+import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
+import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
+import net.minecraft.core.NonNullList;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.*;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+public class Archivar implements ModInitializer {
+    public static final String MOD_ID = "archivar";
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
+    public static ResourceLocation id(String path) {
+        return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
+    }
+
+    public static final Block STORAGE_INTERFACE = new StorageInterfaceBlock(
+            BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).noOcclusion()
+    );
+    public static final BlockItem STORAGE_INTERFACE_ITEM = new BlockItem(STORAGE_INTERFACE, new Item.Properties());
+    public static BlockEntityType<StorageInterfaceBlockEntity> STORAGE_INTERFACE_BE;
+
+    @Override
+    public void onInitialize() {
+        Registry.register(BuiltInRegistries.BLOCK, id("storage_interface"), STORAGE_INTERFACE);
+        Registry.register(BuiltInRegistries.ITEM, id("storage_interface"), STORAGE_INTERFACE_ITEM);
+
+        STORAGE_INTERFACE_BE = Registry.register(
+                BuiltInRegistries.BLOCK_ENTITY_TYPE,
+                id("storage_interface"),
+                BlockEntityType.Builder.of(StorageInterfaceBlockEntity::new, STORAGE_INTERFACE).build()
+        );
+
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> {
+            entries.accept(STORAGE_INTERFACE_ITEM);
+        });
+
+        // Payloads
+        PayloadTypeRegistry.playS2C().register(ArchivarPayloads.SyncTerminalPayload.TYPE, ArchivarPayloads.SyncTerminalPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.RequestOpenTerminalPayload.TYPE, ArchivarPayloads.RequestOpenTerminalPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.ExtractItemPayload.TYPE, ArchivarPayloads.ExtractItemPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.InsertItemPayload.TYPE, ArchivarPayloads.InsertItemPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.ClickCraftSlotPayload.TYPE, ArchivarPayloads.ClickCraftSlotPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.TakeCraftResultPayload.TYPE, ArchivarPayloads.TakeCraftResultPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.ClearCraftGridPayload.TYPE, ArchivarPayloads.ClearCraftGridPayload.STREAM_CODEC);
+
+        // Terminal Öffnen
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.RequestOpenTerminalPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> syncAndOpenTerminal(context.player()));
+        });
+
+        // Item Entnehmen
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.ExtractItemPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> {
+                ServerPlayer sp = context.player();
+                ArchivarData.Vault vault = ArchivarData.get(sp.server).getVault(sp);
+                ItemStack extracted = vault.extract(payload.sample(), payload.amount());
+                if (!extracted.isEmpty()) {
+                    if (!sp.getInventory().add(extracted)) {
+                        sp.drop(extracted, false);
+                    }
+                    syncAndOpenTerminal(sp);
+                }
+            });
+        });
+
+        // Item Einzahlen
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.InsertItemPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> {
+                ServerPlayer sp = context.player();
+                if (payload.slotIndex() >= 0 && payload.slotIndex() < sp.getInventory().items.size()) {
+                    ItemStack inSlot = sp.getInventory().items.get(payload.slotIndex());
+                    if (!inSlot.isEmpty()) {
+                        ArchivarData.Vault vault = ArchivarData.get(sp.server).getVault(sp);
+                        vault.insert(inSlot.copy());
+                        inSlot.setCount(0);
+                        syncAndOpenTerminal(sp);
+                    }
+                }
+            });
+        });
+
+        // Klick auf Crafting-Slot (Zutaten setzen/herausnehmen)
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.ClickCraftSlotPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> {
+                ServerPlayer sp = context.player();
+                ArchivarData.Vault vault = ArchivarData.get(sp.server).getVault(sp);
+                int slot = payload.slotIndex();
+                if (slot >= 0 && slot < 9) {
+                    ItemStack inSlot = vault.craftingGrid.get(slot);
+                    if (payload.shift()) {
+                        // Shift-Klick: Zutat direkt zurück ins Archiv
+                        if (!inSlot.isEmpty()) {
+                            vault.insert(inSlot.copy());
+                            vault.craftingGrid.set(slot, ItemStack.EMPTY);
+                        }
+                    } else if (payload.button() == 1) {
+                        // Rechtsklick: 1 Item entnehmen und ins Inventar
+                        if (!inSlot.isEmpty()) {
+                            ItemStack taken = inSlot.split(1);
+                            if (!sp.getInventory().add(taken)) {
+                                sp.drop(taken, false);
+                            }
+                            if (inSlot.isEmpty()) {
+                                vault.craftingGrid.set(slot, ItemStack.EMPTY);
+                            }
+                        }
+                    } else {
+                        // Linksklick: Ganzen Slot ins Inventar nehmen
+                        if (!inSlot.isEmpty()) {
+                            if (!sp.getInventory().add(inSlot.copy())) {
+                                sp.drop(inSlot, false);
+                            }
+                            vault.craftingGrid.set(slot, ItemStack.EMPTY);
+                        }
+                    }
+                    syncAndOpenTerminal(sp);
+                }
+            });
+        });
+
+        // Crafting-Ergebnis herstellen
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.TakeCraftResultPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> {
+                ServerPlayer sp = context.player();
+                ArchivarData.Vault vault = ArchivarData.get(sp.server).getVault(sp);
+
+                do {
+                    CraftingInput input = CraftingInput.of(3, 3, vault.craftingGrid);
+                    Optional<RecipeHolder<CraftingRecipe>> match = sp.server.getRecipeManager()
+                            .getRecipeFor(RecipeType.CRAFTING, input, sp.serverLevel());
+
+                    if (match.isEmpty()) break;
+
+                    ItemStack result = match.get().value().assemble(input, sp.server.registryAccess());
+                    if (result.isEmpty()) break;
+
+                    // Platz im Spielerinventar prüfen
+                    if (!sp.getInventory().canPlaceItem(0, result) && sp.getInventory().getFreeSlot() == -1) {
+                        break;
+                    }
+
+                    // 1 Zutat aus jedem belegten Slot abziehen
+                    NonNullList<ItemStack> remaining = match.get().value().getRemainingItems(input);
+                    for (int i = 0; i < 9; i++) {
+                        ItemStack current = vault.craftingGrid.get(i);
+                        if (!current.isEmpty()) {
+                            current.shrink(1);
+                        }
+                        if (!remaining.get(i).isEmpty()) {
+                            if (current.isEmpty()) {
+                                vault.craftingGrid.set(i, remaining.get(i));
+                            } else {
+                                vault.insert(remaining.get(i));
+                            }
+                        }
+                    }
+
+                    if (!sp.getInventory().add(result)) {
+                        sp.drop(result, false);
+                    }
+
+                } while (payload.shift()); // Wenn Shift: Solange craften, wie Zutaten da sind!
+
+                syncAndOpenTerminal(sp);
+            });
+        });
+
+        // Crafting-Gitter leeren
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.ClearCraftGridPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> {
+                ServerPlayer sp = context.player();
+                ArchivarData.Vault vault = ArchivarData.get(sp.server).getVault(sp);
+                for (int i = 0; i < 9; i++) {
+                    ItemStack stack = vault.craftingGrid.get(i);
+                    if (!stack.isEmpty()) {
+                        vault.insert(stack.copy());
+                        vault.craftingGrid.set(i, ItemStack.EMPTY);
+                    }
+                }
+                syncAndOpenTerminal(sp);
+            });
+        });
+
+        LOGGER.info("Archivar Lagermod mit AE2-Crafting geladen!");
+    }
+
+    public static void syncAndOpenTerminal(ServerPlayer player) {
+        ArchivarData.Vault vault = ArchivarData.get(player.server).getVault(player);
+        List<ArchivarPayloads.ItemEntry> entries = vault.getAll().stream()
+                .map(e -> new ArchivarPayloads.ItemEntry(e.template, e.count))
+                .toList();
+        List<ItemStack> craftGrid = new ArrayList<>(vault.craftingGrid);
+        ServerPlayNetworking.send(player, new ArchivarPayloads.SyncTerminalPayload(entries, craftGrid));
+    }
+}
+</file>
+
+<file path="src/main/resources/assets/archivar/blockstates/storage_interface.json">
+{
+  "variants": {
+    "": {
+      "model": "archivar:block/storage_interface"
+    }
+  }
+}
+</file>
+
+<file path="src/main/resources/assets/archivar/lang/de_de.json">
+{
+  "block.archivar.storage_interface": "Lager-Anschluss (Interface)",
+  "key.archivar.open_terminal": "Archiv-Terminal öffnen",
+  "category.archivar.general": "Archivar",
+  "gui.archivar.terminal_title": "Archivar — Crafting Terminal",
+  "gui.archivar.crafting": "Crafting",
+  "gui.archivar.clear": "Leeren",
+  "gui.archivar.inventory": "Spieler-Inventar",
+  "message.archivar.interface_info": "§b[Archivar] §7Lager-Anschluss aktiv. Schließe Trichter oder Rohre an, um Items direkt ins Archiv zu leiten."
+}
+</file>
+
+<file path="src/main/resources/assets/archivar/lang/en_us.json">
+{
+  "block.archivar.storage_interface": "Storage Interface",
+  "key.archivar.open_terminal": "Open Archive Terminal",
+  "category.archivar.general": "Archivar",
+  "gui.archivar.terminal_title": "Archivar \u2014 Crafting Terminal",
+  "gui.archivar.crafting": "Crafting",
+  "gui.archivar.clear": "Clear",
+  "gui.archivar.inventory": "Player Inventory",
+  "message.archivar.interface_info": "\u00a7b[Archivar] \u00a77Storage Interface active. Connect hoppers or pipes to pump items into the archive."
+}
+</file>
+
+<file path="src/main/resources/assets/archivar/models/block/storage_interface.json">
+{
+  "credit": "Super94craft 3D High-Tech Storage Interface",
+  "textures": {
+    "particle": "minecraft:block/iron_block",
+    "frame": "minecraft:block/polished_deepslate",
+    "metal": "minecraft:block/iron_block",
+    "panel": "minecraft:block/chiseled_polished_blackstone",
+    "glow": "minecraft:block/sea_lantern"
+  },
+  "elements": [
+    {
+      "name": "base_casing",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        14,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#frame"
+        },
+        "east": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#frame"
+        },
+        "south": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#frame"
+        },
+        "west": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#frame"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#panel"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#frame"
+        }
+      }
+    },
+    {
+      "name": "top_port_rim",
+      "from": [
+        4,
+        14,
+        4
+      ],
+      "to": [
+        12,
+        16,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            12,
+            12,
+            14
+          ],
+          "texture": "#metal"
+        },
+        "east": {
+          "uv": [
+            4,
+            12,
+            12,
+            14
+          ],
+          "texture": "#metal"
+        },
+        "south": {
+          "uv": [
+            4,
+            12,
+            12,
+            14
+          ],
+          "texture": "#metal"
+        },
+        "west": {
+          "uv": [
+            4,
+            12,
+            12,
+            14
+          ],
+          "texture": "#metal"
+        },
+        "up": {
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "texture": "#metal"
+        }
+      }
+    },
+    {
+      "name": "quantum_core",
+      "from": [
+        6,
+        14.5,
+        6
+      ],
+      "to": [
+        10,
+        15.5,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ],
+          "texture": "#glow"
+        }
+      }
+    },
+    {
+      "name": "front_rack",
+      "from": [
+        3,
+        2,
+        0.5
+      ],
+      "to": [
+        13,
+        12,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ],
+          "texture": "#panel"
+        },
+        "up": {
+          "uv": [
+            3,
+            1,
+            13,
+            2
+          ],
+          "texture": "#metal"
+        },
+        "down": {
+          "uv": [
+            3,
+            1,
+            13,
+            2
+          ],
+          "texture": "#metal"
+        }
+      }
+    },
+    {
+      "name": "front_led",
+      "from": [
+        4,
+        6.5,
+        0.4
+      ],
+      "to": [
+        12,
+        7.5,
+        0.6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            7,
+            12,
+            8
+          ],
+          "texture": "#glow"
+        }
+      }
+    }
+  ]
+}
+</file>
+
+<file path="src/main/resources/assets/archivar/models/item/storage_interface.json">
+{
+  "parent": "archivar:block/storage_interface"
+}
+</file>
+
+<file path="src/main/resources/data/archivar/loot_table/blocks/storage_interface.json">
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "archivar:storage_interface"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}
+</file>
+
+<file path="src/main/resources/data/archivar/recipe/storage_interface.json">
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "RCR",
+    "EIE"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "R": { "item": "minecraft:redstone" },
+    "C": { "item": "minecraft:chest" },
+    "E": { "item": "minecraft:ender_pearl" }
+  },
+  "result": { "id": "archivar:storage_interface", "count": 1 }
+}
+</file>
+
+<file path="src/main/resources/fabric.mod.json">
+{
+  "schemaVersion": 1,
+  "id": "archivar",
+  "version": "${version}",
+  "name": "Archivar",
+  "description": "Globales Spieler-Lager mit Keybind-Terminal und 3D-Lager-Anschluss f\u00fcr Rohre und Trichter.",
+  "authors": [
+    "Super94craft"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.archivar.Archivar"
+    ],
+    "client": [
+      "net.archivar.client.ArchivarClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
+</file>
+
+<file path="build.gradle">
+plugins {
+    id 'fabric-loom' version '1.10-SNAPSHOT'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    mavenCentral()
+    maven { url = "https://maven.fabricmc.net/" }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 21
+}
+
+java {
+    withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+</file>
+
+<file path="gradle.properties">
+minecraft_version=1.21
+yarn_mappings=1.21+build.1
+loader_version=0.15.11
+fabric_version=0.100.1+1.21
+
+mod_version=1.0.0
+maven_group=net.archivar
+archives_base_name=archivar
+</file>
+
+<file path="gradlew">
+#!/bin/sh
+
+#
+# Copyright © 2015-2021 the original authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+##############################################################################
+#
+#   Gradle start up script for POSIX generated by Gradle.
+#
+#   Important for running:
+#
+#   (1) You need a POSIX-compliant shell to run this script. If your /bin/sh is
+#       noncompliant, but you have some other compliant shell such as ksh or
+#       bash, then to run this script, type that shell name before the whole
+#       command line, like:
+#
+#           ksh Gradle
+#
+#       Busybox and similar reduced shells will NOT work, because this script
+#       requires all of these POSIX shell features:
+#         * functions;
+#         * expansions «$var», «${var}», «${var:-default}», «${var+SET}»,
+#           «${var#prefix}», «${var%suffix}», and «$( cmd )»;
+#         * compound commands having a testable exit status, especially «case»;
+#         * various built-in commands including «command», «set», and «ulimit».
+#
+#   Important for patching:
+#
+#   (2) This script targets any POSIX shell, so it avoids extensions provided
+#       by Bash, Ksh, etc; in particular arrays are avoided.
+#
+#       The "traditional" practice of packing multiple parameters into a
+#       space-separated string is a well documented source of bugs and security
+#       problems, so this is (mostly) avoided, by progressively accumulating
+#       options in "$@", and eventually passing that to Java.
+#
+#       Where the inherited environment variables (DEFAULT_JVM_OPTS, JAVA_OPTS,
+#       and GRADLE_OPTS) rely on word-splitting, this is performed explicitly;
+#       see the in-line comments for details.
+#
+#       There are tweaks for specific operating systems such as AIX, CygWin,
+#       Darwin, MinGW, and NonStop.
+#
+#   (3) This script is generated from the Groovy template
+#       https://github.com/gradle/gradle/blob/HEAD/platforms/jvm/plugins-application/src/main/resources/org/gradle/api/internal/plugins/unixStartScript.txt
+#       within the Gradle project.
+#
+#       You can find Gradle at https://github.com/gradle/gradle/.
+#
+##############################################################################
+
+# Attempt to set APP_HOME
+
+# Resolve links: $0 may be a link
+app_path=$0
+
+# Need this for daisy-chained symlinks.
+while
+    APP_HOME=${app_path%"${app_path##*/}"}  # leaves a trailing /; empty if no leading path
+    [ -h "$app_path" ]
+do
+    ls=$( ls -ld "$app_path" )
+    link=${ls#*' -> '}
+    case $link in             #(
+      /*)   app_path=$link ;; #(
+      *)    app_path=$APP_HOME$link ;;
+    esac
+done
+
+# This is normally unused
+# shellcheck disable=SC2034
+APP_BASE_NAME=${0##*/}
+# Discard cd standard output in case $CDPATH is set (https://github.com/gradle/gradle/issues/25036)
+APP_HOME=$( cd -P "${APP_HOME:-./}" > /dev/null && printf '%s\n' "$PWD" ) || exit
+
+# Use the maximum available, or set MAX_FD != -1 to use that value.
+MAX_FD=maximum
+
+warn () {
+    echo "$*"
+} >&2
+
+die () {
+    echo
+    echo "$*"
+    echo
+    exit 1
+} >&2
+
+# OS specific support (must be 'true' or 'false').
+cygwin=false
+msys=false
+darwin=false
+nonstop=false
+case "$( uname )" in                #(
+  CYGWIN* )         cygwin=true  ;; #(
+  Darwin* )         darwin=true  ;; #(
+  MSYS* | MINGW* )  msys=true    ;; #(
+  NONSTOP* )        nonstop=true ;;
+esac
+
+CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
+
+
+# Determine the Java command to use to start the JVM.
+if [ -n "$JAVA_HOME" ] ; then
+    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
+        # IBM's JDK on AIX uses strange locations for the executables
+        JAVACMD=$JAVA_HOME/jre/sh/java
+    else
+        JAVACMD=$JAVA_HOME/bin/java
+    fi
+    if [ ! -x "$JAVACMD" ] ; then
+        die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation."
+    fi
+else
+    JAVACMD=java
+    if ! command -v java >/dev/null 2>&1
+    then
+        die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation."
+    fi
+fi
+
+# Increase the maximum file descriptors if we can.
+if ! "$cygwin" && ! "$darwin" && ! "$nonstop" ; then
+    case $MAX_FD in #(
+      max*)
+        # In POSIX sh, ulimit -H is undefined. That's why the result is checked to see if it worked.
+        # shellcheck disable=SC2039,SC3045
+        MAX_FD=$( ulimit -H -n ) ||
+            warn "Could not query maximum file descriptor limit"
+    esac
+    case $MAX_FD in  #(
+      '' | soft) :;; #(
+      *)
+        # In POSIX sh, ulimit -n is undefined. That's why the result is checked to see if it worked.
+        # shellcheck disable=SC2039,SC3045
+        ulimit -n "$MAX_FD" ||
+            warn "Could not set maximum file descriptor limit to $MAX_FD"
+    esac
+fi
+
+# Collect all arguments for the java command, stacking in reverse order:
+#   * args from the command line
+#   * the main class name
+#   * -classpath
+#   * -D...appname settings
+#   * --module-path (only if needed)
+#   * DEFAULT_JVM_OPTS, JAVA_OPTS, and GRADLE_OPTS environment variables.
+
+# For Cygwin or MSYS, switch paths to Windows format before running java
+if "$cygwin" || "$msys" ; then
+    APP_HOME=$( cygpath --path --mixed "$APP_HOME" )
+    CLASSPATH=$( cygpath --path --mixed "$CLASSPATH" )
+
+    JAVACMD=$( cygpath --unix "$JAVACMD" )
+
+    # Now convert the arguments - kludge to limit ourselves to /bin/sh
+    for arg do
+        if
+            case $arg in                                #(
+              -*)   false ;;                            # don't mess with options #(
+              /?*)  t=${arg#/} t=/${t%%/*}              # looks like a POSIX filepath
+                    [ -e "$t" ] ;;                      #(
+              *)    false ;;
+            esac
+        then
+            arg=$( cygpath --path --ignore --mixed "$arg" )
+        fi
+        # Roll the args list around exactly as many times as the number of
+        # args, so each arg winds up back in the position where it started, but
+        # possibly modified.
+        #
+        # NB: a `for` loop captures its iteration list before it begins, so
+        # changing the positional parameters here affects neither the number of
+        # iterations, nor the values presented in `arg`.
+        shift                   # remove old arg
+        set -- "$@" "$arg"      # push replacement arg
+    done
+fi
+
+
+# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+DEFAULT_JVM_OPTS='-Dfile.encoding=UTF-8 "-Xmx64m" "-Xms64m"'
+
+# Collect all arguments for the java command:
+#   * DEFAULT_JVM_OPTS, JAVA_OPTS, JAVA_OPTS, and optsEnvironmentVar are not allowed to contain shell fragments,
+#     and any embedded shellness will be escaped.
+#   * For example: A user cannot expect ${Hostname} to be expanded, as it is an environment variable and will be
+#     treated as '${Hostname}' itself on the command line.
+
+set -- \
+        "-Dorg.gradle.appname=$APP_BASE_NAME" \
+        -classpath "$CLASSPATH" \
+        org.gradle.wrapper.GradleWrapperMain \
+        "$@"
+
+# Stop when "xargs" is not available.
+if ! command -v xargs >/dev/null 2>&1
+then
+    die "xargs is not available"
+fi
+
+# Use "xargs" to parse quoted args.
+#
+# With -n1 it outputs one arg per line, with the quotes and backslashes removed.
+#
+# In Bash we could simply go:
+#
+#   readarray ARGS < <( xargs -n1 <<<"$var" ) &&
+#   set -- "${ARGS[@]}" "$@"
+#
+# but POSIX shell has neither arrays nor command substitution, so instead we
+# post-process each arg (as a line of input to sed) to backslash-escape any
+# character that might be a shell metacharacter, then use eval to reverse
+# that process (while maintaining the separation between arguments), and wrap
+# the whole thing up as a single "set" statement.
+#
+# This will of course break if any of these variables contains a newline or
+# an unmatched quote.
+#
+
+eval "set -- $(
+        printf '%s\n' "$DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS" |
+        xargs -n1 |
+        sed ' s~[^-[:alnum:]+,./:=@_]~\\&~g; ' |
+        tr '\n' ' '
+    )" '"$@"'
+
+exec "$JAVACMD" "$@"
+</file>
+
+<file path="gradlew.bat">
+@rem
+@rem Copyright 2015 the original author or authors.
+@rem
+@rem Licensed under the Apache License, Version 2.0 (the "License");
+@rem you may not use this file except in compliance with the License.
+@rem You may obtain a copy of the License at
+@rem
+@rem      https://www.apache.org/licenses/LICENSE-2.0
+@rem
+@rem Unless required by applicable law or agreed to in writing, software
+@rem distributed under the License is distributed on an "AS IS" BASIS,
+@rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+@rem See the License for the specific language governing permissions and
+@rem limitations under the License.
+@rem
+@rem SPDX-License-Identifier: Apache-2.0
+@rem
+
+@if "%DEBUG%"=="" @echo off
+@rem ##########################################################################
+@rem
+@rem  Gradle startup script for Windows
+@rem
+@rem ##########################################################################
+
+@rem Set local scope for the variables with windows NT shell
+if "%OS%"=="Windows_NT" setlocal
+
+set DIRNAME=%~dp0
+if "%DIRNAME%"=="" set DIRNAME=.
+@rem This is normally unused
+set APP_BASE_NAME=%~n0
+set APP_HOME=%DIRNAME%
+
+@rem Resolve any "." and ".." in APP_HOME to make it shorter.
+for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
+
+@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+set DEFAULT_JVM_OPTS=-Dfile.encoding=UTF-8 "-Xmx64m" "-Xms64m"
+
+@rem Find java.exe
+if defined JAVA_HOME goto findJavaFromJavaHome
+
+set JAVA_EXE=java.exe
+%JAVA_EXE% -version >NUL 2>&1
+if %ERRORLEVEL% equ 0 goto execute
+
+echo. 1>&2
+echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH. 1>&2
+echo. 1>&2
+echo Please set the JAVA_HOME variable in your environment to match the 1>&2
+echo location of your Java installation. 1>&2
+
+goto fail
+
+:findJavaFromJavaHome
+set JAVA_HOME=%JAVA_HOME:"=%
+set JAVA_EXE=%JAVA_HOME%/bin/java.exe
+
+if exist "%JAVA_EXE%" goto execute
+
+echo. 1>&2
+echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME% 1>&2
+echo. 1>&2
+echo Please set the JAVA_HOME variable in your environment to match the 1>&2
+echo location of your Java installation. 1>&2
+
+goto fail
+
+:execute
+@rem Setup the command line
+
+set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
+
+
+@rem Execute Gradle
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %*
+
+:end
+@rem End local scope for the variables with windows NT shell
+if %ERRORLEVEL% equ 0 goto mainEnd
+
+:fail
+rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
+rem the _cmd.exe /c_ return code!
+set EXIT_CODE=%ERRORLEVEL%
+if %EXIT_CODE% equ 0 set EXIT_CODE=1
+if not ""=="%GRADLE_EXIT_CONSOLE%" exit %EXIT_CODE%
+exit /b %EXIT_CODE%
+
+:mainEnd
+if "%OS%"=="Windows_NT" endlocal
+
+:omega
+</file>
+
+<file path="python_helper.py">
+import os
+import json
+from pathlib import Path
+
+ARCHIVAR_DIR = Path(r"C:\Users\Ronny\OneDrive\Desktop\SurpriseMods\archivar")
+BASE_DIR = Path(__file__).resolve().parent
+
+if not (BASE_DIR / "src").exists() and ARCHIVAR_DIR.exists():
+    BASE_DIR = ARCHIVAR_DIR
+
+def write_file(relative_path: str, content: str):
+    full_path = BASE_DIR / relative_path
+    full_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(full_path, "w", encoding="utf-8") as f:
+        f.write(content.strip() + "\n")
+    print(f"[OK] Aktualisiert: {full_path}")
+
+print("=== Archivar: Bugfix & AE2-Style Crafting Grid ohne Überlappung ===")
+
+# -------------------------------------------------------------------------
+# 1. ARCHIVAR DATA (Bugfix & 3x3 Crafting Grid Speicherung)
+# -------------------------------------------------------------------------
+write_file(
+    "src/main/java/net/archivar/storage/ArchivarData.java",
+    """
+package net.archivar.storage;
+
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.NonNullList;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.ListTag;
+import net.minecraft.nbt.Tag;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.ContainerHelper;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.saveddata.SavedData;
+
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+
+public class ArchivarData extends SavedData {
+
+    public static class Entry {
+        public ItemStack template;
+        public long count;
+
+        public Entry(ItemStack template, long count) {
+            this.template = template.copy();
+            this.template.setCount(1);
+            this.count = count;
+        }
+    }
+
+    public static class Vault {
+        public final List<Entry> items = new ArrayList<>();
+        // Persistentes 3x3 Crafting-Gitter (bleibt beim Schließen erhalten!)
+        public final NonNullList<ItemStack> craftingGrid = NonNullList.withSize(9, ItemStack.EMPTY);
+
+        public synchronized void insert(ItemStack stack) {
+            if (stack.isEmpty()) return;
+            for (Entry e : items) {
+                if (ItemStack.isSameItemSameComponents(e.template, stack)) {
+                    e.count += stack.getCount();
+                    return;
+                }
+            }
+            items.add(new Entry(stack, stack.getCount()));
+        }
+
+        public synchronized ItemStack extract(ItemStack sample, int maxAmount) {
+            for (Iterator<Entry> it = items.iterator(); it.hasNext(); ) {
+                Entry e = it.next();
+                if (ItemStack.isSameItemSameComponents(e.template, sample)) {
+                    int toTake = (int) Math.min(e.count, maxAmount);
+                    e.count -= toTake;
+                    ItemStack out = e.template.copy();
+                    out.setCount(toTake);
+                    if (e.count <= 0) {
+                        it.remove();
+                    }
+                    return out;
+                }
+            }
+            return ItemStack.EMPTY;
+        }
+
+        public synchronized List<Entry> getAll() {
+            return new ArrayList<>(items);
+        }
+    }
+
+    private final Map<UUID, Vault> vaults = new ConcurrentHashMap<>();
+
+    public ArchivarData() {
+    }
+
+    public static final SavedData.Factory<ArchivarData> FACTORY =
+            new SavedData.Factory<>(ArchivarData::new, ArchivarData::load, null);
+
+    public static ArchivarData get(MinecraftServer server) {
+        return server.overworld().getDataStorage().computeIfAbsent(FACTORY, "archivar_storage");
+    }
+
+    public Vault getVault(ServerPlayer player) {
+        UUID id = player.getUUID();
+        if (player.server.isSingleplayer()) {
+            id = UUID.fromString("00000000-0000-0000-0000-000000000000");
+        }
+        return vaults.computeIfAbsent(id, k -> new Vault());
+    }
+
+    public Vault getVault(UUID id) {
+        return vaults.computeIfAbsent(id, k -> new Vault());
+    }
+
+    @Override
+    public CompoundTag save(CompoundTag tag, HolderLookup.Provider registries) {
+        ListTag vaultList = new ListTag();
+        for (Map.Entry<UUID, Vault> en : vaults.entrySet()) {
+            CompoundTag vTag = new CompoundTag();
+            vTag.putUUID("owner", en.getKey());
+
+            // 1. Archiv Items
+            ListTag itemList = new ListTag();
+            for (Entry entry : en.getValue().items) {
+                CompoundTag itemTag = new CompoundTag();
+                Tag savedItem = entry.template.saveOptional(registries);
+                itemTag.put("item", savedItem);
+                itemTag.putLong("count", entry.count);
+                itemList.add(itemTag);
+            }
+            vTag.put("items", itemList);
+
+            // 2. Crafting Grid Slots
+            ContainerHelper.saveAllItems(vTag, en.getValue().craftingGrid, registries);
+
+            vaultList.add(vTag);
+        }
+        tag.put("vaults", vaultList);
+        return tag;
+    }
+
+    public static ArchivarData load(CompoundTag tag, HolderLookup.Provider registries) {
+        ArchivarData data = new ArchivarData();
+        ListTag vaultList = tag.getList("vaults", Tag.TAG_COMPOUND);
+        for (int i = 0; i < vaultList.size(); i++) {
+            CompoundTag vTag = vaultList.getCompound(i);
+            if (!vTag.hasUUID("owner")) continue;
+            UUID owner = vTag.getUUID("owner");
+            Vault vault = new Vault();
+
+            // 1. Archiv Items laden
+            ListTag itemList = vTag.getList("items", Tag.TAG_COMPOUND);
+            for (int j = 0; j < itemList.size(); j++) {
+                CompoundTag iTag = itemList.getCompound(j);
+                if (iTag.contains("item", Tag.TAG_COMPOUND)) {
+                    ItemStack parsed = ItemStack.parseOptional(registries, iTag.getCompound("item"));
+                    if (!parsed.isEmpty()) {
+                        long count = iTag.getLong("count");
+                        vault.items.add(new Entry(parsed, count));
+                    }
+                }
+            }
+
+            // 2. Crafting Grid laden
+            ContainerHelper.loadAllItems(vTag, vault.craftingGrid, registries);
+
+            data.vaults.put(owner, vault);
+        }
+        return data;
+    }
+}
+"""
+)
+
+# -------------------------------------------------------------------------
+# 2. ARCHIVAR PAYLOADS (Sync mit Crafting-Slots & Crafting-Aktionen)
+# -------------------------------------------------------------------------
+write_file(
+    "src/main/java/net/archivar/network/ArchivarPayloads.java",
+    """
+package net.archivar.network;
+
+import net.archivar.Archivar;
+import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.network.codec.ByteBufCodecs;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+import net.minecraft.world.item.ItemStack;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public final class ArchivarPayloads {
+    private ArchivarPayloads() {}
+
+    public record ItemEntry(ItemStack stack, long count) {
+        public static final StreamCodec<RegistryFriendlyByteBuf, ItemEntry> STREAM_CODEC = StreamCodec.of(
+                (buf, val) -> {
+                    ItemStack.OPTIONAL_STREAM_CODEC.encode(buf, val.stack);
+                    buf.writeVarLong(val.count);
+                },
+                buf -> new ItemEntry(ItemStack.OPTIONAL_STREAM_CODEC.decode(buf), buf.readVarLong())
+        );
+    }
+
+    /** Server -> Client: Synchronisiert Lagerinhalte UND das 3x3 Crafting-Gitter */
+    public record SyncTerminalPayload(List<ItemEntry> items, List<ItemStack> craftGrid) implements CustomPacketPayload {
+        public static final Type<SyncTerminalPayload> TYPE = new Type<>(Archivar.id("sync_terminal"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, SyncTerminalPayload> STREAM_CODEC = StreamCodec.of(
+                (buf, val) -> {
+                    buf.writeVarInt(val.items.size());
+                    for (ItemEntry e : val.items) {
+                        ItemEntry.STREAM_CODEC.encode(buf, e);
+                    }
+                    buf.writeVarInt(val.craftGrid.size());
+                    for (ItemStack s : val.craftGrid) {
+                        ItemStack.OPTIONAL_STREAM_CODEC.encode(buf, s);
+                    }
+                },
+                buf -> {
+                    int size = buf.readVarInt();
+                    List<ItemEntry> list = new ArrayList<>(size);
+                    for (int i = 0; i < size; i++) {
+                        list.add(ItemEntry.STREAM_CODEC.decode(buf));
+                    }
+                    int craftSize = buf.readVarInt();
+                    List<ItemStack> craftList = new ArrayList<>(craftSize);
+                    for (int i = 0; i < craftSize; i++) {
+                        craftList.add(ItemStack.OPTIONAL_STREAM_CODEC.decode(buf));
+                    }
+                    return new SyncTerminalPayload(list, craftList);
+                }
+        );
+
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    public record RequestOpenTerminalPayload() implements CustomPacketPayload {
+        public static final Type<RequestOpenTerminalPayload> TYPE = new Type<>(Archivar.id("open_terminal"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, RequestOpenTerminalPayload> STREAM_CODEC = StreamCodec.unit(new RequestOpenTerminalPayload());
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    public record ExtractItemPayload(ItemStack sample, int amount) implements CustomPacketPayload {
+        public static final Type<ExtractItemPayload> TYPE = new Type<>(Archivar.id("extract_item"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, ExtractItemPayload> STREAM_CODEC = StreamCodec.composite(
+                ItemStack.OPTIONAL_STREAM_CODEC, ExtractItemPayload::sample,
+                ByteBufCodecs.VAR_INT, ExtractItemPayload::amount,
+                ExtractItemPayload::new
+        );
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    public record InsertItemPayload(int slotIndex) implements CustomPacketPayload {
+        public static final Type<InsertItemPayload> TYPE = new Type<>(Archivar.id("insert_item"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, InsertItemPayload> STREAM_CODEC = StreamCodec.composite(
+                ByteBufCodecs.VAR_INT, InsertItemPayload::slotIndex,
+                InsertItemPayload::new
+        );
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    /** Client -> Server: Klick auf einen der 9 Crafting-Grid Slots (0..8) */
+    public record ClickCraftSlotPayload(int slotIndex, int button, boolean shift) implements CustomPacketPayload {
+        public static final Type<ClickCraftSlotPayload> TYPE = new Type<>(Archivar.id("click_craft_slot"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, ClickCraftSlotPayload> STREAM_CODEC = StreamCodec.composite(
+                ByteBufCodecs.VAR_INT, ClickCraftSlotPayload::slotIndex,
+                ByteBufCodecs.VAR_INT, ClickCraftSlotPayload::button,
+                ByteBufCodecs.BOOL, ClickCraftSlotPayload::shift,
+                ClickCraftSlotPayload::new
+        );
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    /** Client -> Server: Klick auf den Crafting-Ergebnis-Slot */
+    public record TakeCraftResultPayload(boolean shift) implements CustomPacketPayload {
+        public static final Type<TakeCraftResultPayload> TYPE = new Type<>(Archivar.id("take_craft_result"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, TakeCraftResultPayload> STREAM_CODEC = StreamCodec.composite(
+                ByteBufCodecs.BOOL, TakeCraftResultPayload::shift,
+                TakeCraftResultPayload::new
+        );
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+
+    /** Client -> Server: Räumt das 3x3 Gitter zurück ins Lager */
+    public record ClearCraftGridPayload() implements CustomPacketPayload {
+        public static final Type<ClearCraftGridPayload> TYPE = new Type<>(Archivar.id("clear_craft_grid"));
+        public static final StreamCodec<RegistryFriendlyByteBuf, ClearCraftGridPayload> STREAM_CODEC = StreamCodec.unit(new ClearCraftGridPayload());
+        @Override
+        public Type<? extends CustomPacketPayload> type() { return TYPE; }
+    }
+}
+"""
+)
+
+# -------------------------------------------------------------------------
+# 3. ARCHIVAR HAUPTKLASSE (Server-seitige Crafting-Ausführung)
+# -------------------------------------------------------------------------
+write_file(
+    "src/main/java/net/archivar/Archivar.java",
+    """
+package net.archivar;
+
+import net.archivar.block.StorageInterfaceBlock;
+import net.archivar.block.StorageInterfaceBlockEntity;
+import net.archivar.network.ArchivarPayloads;
+import net.archivar.storage.ArchivarData;
+import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
+import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
+import net.minecraft.core.NonNullList;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.*;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+public class Archivar implements ModInitializer {
+    public static final String MOD_ID = "archivar";
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
+    public static ResourceLocation id(String path) {
+        return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
+    }
+
+    public static final Block STORAGE_INTERFACE = new StorageInterfaceBlock(
+            BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).noOcclusion()
+    );
+    public static final BlockItem STORAGE_INTERFACE_ITEM = new BlockItem(STORAGE_INTERFACE, new Item.Properties());
+    public static BlockEntityType<StorageInterfaceBlockEntity> STORAGE_INTERFACE_BE;
+
+    @Override
+    public void onInitialize() {
+        Registry.register(BuiltInRegistries.BLOCK, id("storage_interface"), STORAGE_INTERFACE);
+        Registry.register(BuiltInRegistries.ITEM, id("storage_interface"), STORAGE_INTERFACE_ITEM);
+
+        STORAGE_INTERFACE_BE = Registry.register(
+                BuiltInRegistries.BLOCK_ENTITY_TYPE,
+                id("storage_interface"),
+                BlockEntityType.Builder.of(StorageInterfaceBlockEntity::new, STORAGE_INTERFACE).build()
+        );
+
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> {
+            entries.accept(STORAGE_INTERFACE_ITEM);
+        });
+
+        // Payloads
+        PayloadTypeRegistry.playS2C().register(ArchivarPayloads.SyncTerminalPayload.TYPE, ArchivarPayloads.SyncTerminalPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.RequestOpenTerminalPayload.TYPE, ArchivarPayloads.RequestOpenTerminalPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.ExtractItemPayload.TYPE, ArchivarPayloads.ExtractItemPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.InsertItemPayload.TYPE, ArchivarPayloads.InsertItemPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.ClickCraftSlotPayload.TYPE, ArchivarPayloads.ClickCraftSlotPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.TakeCraftResultPayload.TYPE, ArchivarPayloads.TakeCraftResultPayload.STREAM_CODEC);
+        PayloadTypeRegistry.playC2S().register(ArchivarPayloads.ClearCraftGridPayload.TYPE, ArchivarPayloads.ClearCraftGridPayload.STREAM_CODEC);
+
+        // Terminal Öffnen
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.RequestOpenTerminalPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> syncAndOpenTerminal(context.player()));
+        });
+
+        // Item Entnehmen
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.ExtractItemPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> {
+                ServerPlayer sp = context.player();
+                ArchivarData.Vault vault = ArchivarData.get(sp.server).getVault(sp);
+                ItemStack extracted = vault.extract(payload.sample(), payload.amount());
+                if (!extracted.isEmpty()) {
+                    if (!sp.getInventory().add(extracted)) {
+                        sp.drop(extracted, false);
+                    }
+                    syncAndOpenTerminal(sp);
+                }
+            });
+        });
+
+        // Item Einzahlen
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.InsertItemPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> {
+                ServerPlayer sp = context.player();
+                if (payload.slotIndex() >= 0 && payload.slotIndex() < sp.getInventory().items.size()) {
+                    ItemStack inSlot = sp.getInventory().items.get(payload.slotIndex());
+                    if (!inSlot.isEmpty()) {
+                        ArchivarData.Vault vault = ArchivarData.get(sp.server).getVault(sp);
+                        vault.insert(inSlot.copy());
+                        inSlot.setCount(0);
+                        syncAndOpenTerminal(sp);
+                    }
+                }
+            });
+        });
+
+        // Klick auf Crafting-Slot (Zutaten setzen/herausnehmen)
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.ClickCraftSlotPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> {
+                ServerPlayer sp = context.player();
+                ArchivarData.Vault vault = ArchivarData.get(sp.server).getVault(sp);
+                int slot = payload.slotIndex();
+                if (slot >= 0 && slot < 9) {
+                    ItemStack inSlot = vault.craftingGrid.get(slot);
+                    if (payload.shift()) {
+                        // Shift-Klick: Zutat direkt zurück ins Archiv
+                        if (!inSlot.isEmpty()) {
+                            vault.insert(inSlot.copy());
+                            vault.craftingGrid.set(slot, ItemStack.EMPTY);
+                        }
+                    } else if (payload.button() == 1) {
+                        // Rechtsklick: 1 Item entnehmen und ins Inventar
+                        if (!inSlot.isEmpty()) {
+                            ItemStack taken = inSlot.split(1);
+                            if (!sp.getInventory().add(taken)) {
+                                sp.drop(taken, false);
+                            }
+                            if (inSlot.isEmpty()) {
+                                vault.craftingGrid.set(slot, ItemStack.EMPTY);
+                            }
+                        }
+                    } else {
+                        // Linksklick: Ganzen Slot ins Inventar nehmen
+                        if (!inSlot.isEmpty()) {
+                            if (!sp.getInventory().add(inSlot.copy())) {
+                                sp.drop(inSlot, false);
+                            }
+                            vault.craftingGrid.set(slot, ItemStack.EMPTY);
+                        }
+                    }
+                    syncAndOpenTerminal(sp);
+                }
+            });
+        });
+
+        // Crafting-Ergebnis herstellen
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.TakeCraftResultPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> {
+                ServerPlayer sp = context.player();
+                ArchivarData.Vault vault = ArchivarData.get(sp.server).getVault(sp);
+
+                do {
+                    CraftingInput input = CraftingInput.of(3, 3, vault.craftingGrid);
+                    Optional<RecipeHolder<CraftingRecipe>> match = sp.server.getRecipeManager()
+                            .getRecipeFor(RecipeType.CRAFTING, input, sp.serverLevel());
+
+                    if (match.isEmpty()) break;
+
+                    ItemStack result = match.get().value().assemble(input, sp.server.registryAccess());
+                    if (result.isEmpty()) break;
+
+                    // Platz im Spielerinventar prüfen
+                    if (!sp.getInventory().canPlaceItem(0, result) && sp.getInventory().getFreeSlot() == -1) {
+                        break;
+                    }
+
+                    // 1 Zutat aus jedem belegten Slot abziehen
+                    NonNullList<ItemStack> remaining = match.get().value().getRemainingItems(input);
+                    for (int i = 0; i < 9; i++) {
+                        ItemStack current = vault.craftingGrid.get(i);
+                        if (!current.isEmpty()) {
+                            current.shrink(1);
+                        }
+                        if (!remaining.get(i).isEmpty()) {
+                            if (current.isEmpty()) {
+                                vault.craftingGrid.set(i, remaining.get(i));
+                            } else {
+                                vault.insert(remaining.get(i));
+                            }
+                        }
+                    }
+
+                    if (!sp.getInventory().add(result)) {
+                        sp.drop(result, false);
+                    }
+
+                } while (payload.shift()); // Wenn Shift: Solange craften, wie Zutaten da sind!
+
+                syncAndOpenTerminal(sp);
+            });
+        });
+
+        // Crafting-Gitter leeren
+        ServerPlayNetworking.registerGlobalReceiver(ArchivarPayloads.ClearCraftGridPayload.TYPE, (payload, context) -> {
+            context.player().server.execute(() -> {
+                ServerPlayer sp = context.player();
+                ArchivarData.Vault vault = ArchivarData.get(sp.server).getVault(sp);
+                for (int i = 0; i < 9; i++) {
+                    ItemStack stack = vault.craftingGrid.get(i);
+                    if (!stack.isEmpty()) {
+                        vault.insert(stack.copy());
+                        vault.craftingGrid.set(i, ItemStack.EMPTY);
+                    }
+                }
+                syncAndOpenTerminal(sp);
+            });
+        });
+
+        LOGGER.info("Archivar Lagermod mit AE2-Crafting geladen!");
+    }
+
+    public static void syncAndOpenTerminal(ServerPlayer player) {
+        ArchivarData.Vault vault = ArchivarData.get(player.server).getVault(player);
+        List<ArchivarPayloads.ItemEntry> entries = vault.getAll().stream()
+                .map(e -> new ArchivarPayloads.ItemEntry(e.template, e.count))
+                .toList();
+        List<ItemStack> craftGrid = new ArrayList<>(vault.craftingGrid);
+        ServerPlayNetworking.send(player, new ArchivarPayloads.SyncTerminalPayload(entries, craftGrid));
+    }
+}
+"""
+)
+
+# -------------------------------------------------------------------------
+# 4. ARCHIVAR TERMINAL SCREEN (Perfekt getrennte Zonen, 0% Überlappung)
+# -------------------------------------------------------------------------
+write_file(
+    "src/main/java/net/archivar/client/ArchivarTerminalScreen.java",
+    """
+package net.archivar.client;
+
+import net.archivar.network.ArchivarPayloads;
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
+import net.minecraft.ChatFormatting;
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.components.EditBox;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.CraftingInput;
+import net.minecraft.world.item.crafting.CraftingRecipe;
+import net.minecraft.world.item.crafting.RecipeHolder;
+import net.minecraft.world.item.crafting.RecipeType;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+
+public class ArchivarTerminalScreen extends Screen {
+    private final List<ArchivarPayloads.ItemEntry> rawItems;
+    private final List<ItemStack> craftGrid = new ArrayList<>();
+    private List<ArchivarPayloads.ItemEntry> filteredItems = new ArrayList<>();
+    private ItemStack craftResultPreview = ItemStack.EMPTY;
+
+    private EditBox searchBox;
+    private int scrollOffset = 0;
+    private boolean sortByCount = true;
+
+    // GUI Dimensionen (Perfekt aufgeteilte Zonen gegen jegliche Überlappung)
+    private static final int GUI_WIDTH = 224;
+    private static final int GUI_HEIGHT = 260;
+
+    private static final int COLS = 9;
+    private static final int STORAGE_ROWS = 4;
+    private static final int SLOT_SIZE = 18;
+
+    // Farbpalette
+    private static final int BG_PANEL = 0xF510141C;
+    private static final int BG_HEADER = 0xFF0A0D12;
+    private static final int BORDER_OUTER = 0xFF00E5FF;
+    private static final int BORDER_INNER = 0xFF1E2838;
+    private static final int SLOT_BG = 0xFF141A24;
+    private static final int SLOT_SHADOW = 0xFF070A0F;
+    private static final int SLOT_HIGHLIGHT = 0xFF263245;
+    private static final int HOVER_GLOW = 0x4400E5FF;
+    private static final int RESULT_SLOT_GLOW = 0x3300E5FF;
+
+    public ArchivarTerminalScreen(List<ArchivarPayloads.ItemEntry> items, List<ItemStack> craftGrid) {
+        super(Component.literal("Archivar Terminal"));
+        this.rawItems = new ArrayList<>(items);
+        this.craftGrid.addAll(craftGrid);
+        while (this.craftGrid.size() < 9) {
+            this.craftGrid.add(ItemStack.EMPTY);
+        }
+    }
+
+    public void updateData(List<ArchivarPayloads.ItemEntry> items, List<ItemStack> craftGrid) {
+        this.rawItems.clear();
+        this.rawItems.addAll(items);
+        this.craftGrid.clear();
+        this.craftGrid.addAll(craftGrid);
+        while (this.craftGrid.size() < 9) {
+            this.craftGrid.add(ItemStack.EMPTY);
+        }
+        filterAndSort();
+        updateCraftPreview();
+    }
+
+    @Override
+    protected void init() {
+        int left = (this.width - GUI_WIDTH) / 2;
+        int top = (this.height - GUI_HEIGHT) / 2;
+
+        // ZONE 1: HEADER CONTROLS
+        this.searchBox = new EditBox(this.font, left + 10, top + 17, 105, 12, Component.literal(""));
+        this.searchBox.setBordered(false);
+        this.searchBox.setTextColor(0xFFFFFF);
+        this.searchBox.setResponder(text -> {
+            this.scrollOffset = 0;
+            filterAndSort();
+        });
+        this.addRenderableWidget(this.searchBox);
+
+        // Sortier-Button
+        this.addRenderableWidget(Button.builder(Component.literal(sortByCount ? "# Menge" : "A-Z"), btn -> {
+            sortByCount = !sortByCount;
+            btn.setMessage(Component.literal(sortByCount ? "# Menge" : "A-Z"));
+            filterAndSort();
+        }).bounds(left + 120, top + 14, 46, 16).build());
+
+        // [Leeren] Button für Crafting-Gitter
+        this.addRenderableWidget(Button.builder(Component.literal("Leeren"), btn -> {
+            ClientPlayNetworking.send(new ArchivarPayloads.ClearCraftGridPayload());
+        }).bounds(left + 168, top + 14, 46, 16).build());
+
+        filterAndSort();
+        updateCraftPreview();
+    }
+
+    private void filterAndSort() {
+        String query = searchBox != null ? searchBox.getValue().toLowerCase().trim() : "";
+        filteredItems = rawItems.stream()
+                .filter(e -> query.isEmpty() || e.stack().getHoverName().getString().toLowerCase().contains(query))
+                .sorted(sortByCount
+                        ? Comparator.comparingLong(ArchivarPayloads.ItemEntry::count).reversed()
+                        : Comparator.comparing(e -> e.stack().getHoverName().getString()))
+                .toList();
+    }
+
+    private void updateCraftPreview() {
+        if (this.minecraft == null || this.minecraft.level == null) return;
+        CraftingInput input = CraftingInput.of(3, 3, this.craftGrid);
+        Optional<RecipeHolder<CraftingRecipe>> match = this.minecraft.level.getRecipeManager()
+                .getRecipeFor(RecipeType.CRAFTING, input, this.minecraft.level);
+
+        if (match.isPresent()) {
+            this.craftResultPreview = match.get().value().assemble(input, this.minecraft.level.registryAccess());
+        } else {
+            this.craftResultPreview = ItemStack.EMPTY;
+        }
+    }
+
+    @Override
+    public boolean mouseScrolled(double mouseX, double mouseY, double horizontalAmount, double verticalAmount) {
+        int maxRows = (int) Math.ceil((double) filteredItems.size() / COLS);
+        if (maxRows > STORAGE_ROWS) {
+            if (verticalAmount < 0 && scrollOffset < maxRows - STORAGE_ROWS) {
+                scrollOffset++;
+                return true;
+            } else if (verticalAmount > 0 && scrollOffset > 0) {
+                scrollOffset--;
+                return true;
+            }
+        }
+        return super.mouseScrolled(mouseX, mouseY, horizontalAmount, verticalAmount);
+    }
+
+    @Override
+    public boolean mouseClicked(double mouseX, double mouseY, int button) {
+        int left = (this.width - GUI_WIDTH) / 2;
+        int top = (this.height - GUI_HEIGHT) / 2;
+
+        // 1. KLICK AUF ARCHIV-SLOTS (Zone 2: Y = 34..106)
+        int gridX = left + 8;
+        int gridY = top + 34;
+        for (int r = 0; r < STORAGE_ROWS; r++) {
+            for (int c = 0; c < COLS; c++) {
+                int sx = gridX + c * SLOT_SIZE;
+                int sy = gridY + r * SLOT_SIZE;
+                if (mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE) {
+                    int index = (scrollOffset + r) * COLS + c;
+                    if (index >= 0 && index < filteredItems.size()) {
+                        ArchivarPayloads.ItemEntry entry = filteredItems.get(index);
+                        int amount = (button == 1) ? 1 : (hasShiftDown() ? 64 : entry.stack().getMaxStackSize());
+                        ClientPlayNetworking.send(new ArchivarPayloads.ExtractItemPayload(entry.stack(), amount));
+                        return true;
+                    }
+                }
+            }
+        }
+
+        // 2. KLICK AUF 3x3 CRAFTING MATRIX (Zone 3: Y = 112..166)
+        int craftX = left + 46;
+        int craftY = top + 112;
+        for (int r = 0; r < 3; r++) {
+            for (int c = 0; c < 3; c++) {
+                int sx = craftX + c * SLOT_SIZE;
+                int sy = craftY + r * SLOT_SIZE;
+                if (mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE) {
+                    int slotIndex = r * 3 + c;
+                    ClientPlayNetworking.send(new ArchivarPayloads.ClickCraftSlotPayload(slotIndex, button, hasShiftDown()));
+                    return true;
+                }
+            }
+        }
+
+        // 3. KLICK AUF CRAFTING ERGEBNIS-SLOT (Zone 3: Y = 130)
+        int resultX = left + 144;
+        int resultY = top + 130;
+        if (mouseX >= resultX && mouseX < resultX + SLOT_SIZE && mouseY >= resultY && mouseY < resultY + SLOT_SIZE) {
+            if (!this.craftResultPreview.isEmpty()) {
+                ClientPlayNetworking.send(new ArchivarPayloads.TakeCraftResultPayload(hasShiftDown()));
+                return true;
+            }
+        }
+
+        // 4. SHIFT-KLICK AUF SPIELER-INVENTAR (Zone 4: Y = 180..252)
+        if (hasShiftDown() && this.minecraft != null && this.minecraft.player != null) {
+            int invX = left + 31;
+            int invY = top + 180;
+
+            // Hauptinventar
+            for (int r = 0; r < 3; r++) {
+                for (int c = 0; c < 9; c++) {
+                    int sx = invX + c * SLOT_SIZE;
+                    int sy = invY + r * SLOT_SIZE;
+                    if (mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE) {
+                        int slotIndex = 9 + r * 9 + c;
+                        ClientPlayNetworking.send(new ArchivarPayloads.InsertItemPayload(slotIndex));
+                        return true;
+                    }
+                }
+            }
+
+            // Hotbar
+            int hotbarY = top + 238;
+            for (int c = 0; c < 9; c++) {
+                int sx = invX + c * SLOT_SIZE;
+                if (mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= hotbarY && mouseY < hotbarY + SLOT_SIZE) {
+                    ClientPlayNetworking.send(new ArchivarPayloads.InsertItemPayload(c));
+                    return true;
+                }
+            }
+        }
+
+        return super.mouseClicked(mouseX, mouseY, button);
+    }
+
+    @Override
+    public void render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
+        super.render(graphics, mouseX, mouseY, partialTick);
+
+        int left = (this.width - GUI_WIDTH) / 2;
+        int top = (this.height - GUI_HEIGHT) / 2;
+
+        // 1. HAUPT-CHASSIS RAHMEN
+        graphics.fill(left, top, left + GUI_WIDTH, top + GUI_HEIGHT, BG_PANEL);
+        graphics.fill(left, top, left + GUI_WIDTH, top + 1, BORDER_OUTER);
+        graphics.fill(left, top + GUI_HEIGHT - 1, left + GUI_WIDTH, top + GUI_HEIGHT, BORDER_OUTER);
+        graphics.fill(left, top, left + 1, top + GUI_HEIGHT, BORDER_OUTER);
+        graphics.fill(left + GUI_WIDTH - 1, top, left + GUI_WIDTH, top + GUI_HEIGHT, BORDER_OUTER);
+
+        // Header Leiste
+        graphics.fill(left + 4, top + 4, left + GUI_WIDTH - 4, top + 32, BG_HEADER);
+        graphics.drawString(this.font, Component.literal("§bARCHIVAR §7| Crafting Terminal"), left + 8, top + 6, 0xFFFFFF);
+
+        // Suchfeld-Rahmen
+        graphics.fill(left + 8, top + 15, left + 116, top + 29, 0xFF000000);
+        graphics.fill(left + 7, top + 14, left + 117, top + 15, BORDER_INNER);
+        graphics.fill(left + 7, top + 29, left + 117, top + 30, BORDER_INNER);
+
+        // 2. ARCHIV GRID (4 Reihen x 9 Spalten = 36 Slots)
+        int gridX = left + 8;
+        int gridY = top + 34;
+        ItemStack hoveredStack = ItemStack.EMPTY;
+        long hoveredCount = 0;
+
+        for (int r = 0; r < STORAGE_ROWS; r++) {
+            for (int c = 0; c < COLS; c++) {
+                int sx = gridX + c * SLOT_SIZE;
+                int sy = gridY + r * SLOT_SIZE;
+                boolean isHovered = mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE;
+
+                drawBeveledSlot(graphics, sx, sy, isHovered);
+
+                int index = (scrollOffset + r) * COLS + c;
+                if (index < filteredItems.size()) {
+                    ArchivarPayloads.ItemEntry entry = filteredItems.get(index);
+                    graphics.renderItem(entry.stack(), sx + 1, sy + 1);
+
+                    String countText = formatCount(entry.count());
+                    graphics.drawString(this.font, countText, sx + 2, sy + 9, 0xFFFFFF, true);
+
+                    if (isHovered) {
+                        hoveredStack = entry.stack();
+                        hoveredCount = entry.count();
+                    }
+                }
+            }
+        }
+
+        // Scrollbar rechts
+        int scrollBarX = left + 172;
+        int scrollBarY = gridY;
+        int scrollBarHeight = STORAGE_ROWS * SLOT_SIZE;
+        graphics.fill(scrollBarX, scrollBarY, scrollBarX + 10, scrollBarY + scrollBarHeight, 0xFF080B10);
+
+        int maxRows = (int) Math.ceil((double) filteredItems.size() / COLS);
+        int thumbHeight = maxRows > STORAGE_ROWS ? Math.max(14, (STORAGE_ROWS * scrollBarHeight) / maxRows) : scrollBarHeight;
+        int thumbY = maxRows > STORAGE_ROWS ? scrollBarY + (scrollOffset * (scrollBarHeight - thumbHeight)) / (maxRows - STORAGE_ROWS) : scrollBarY;
+        graphics.fill(scrollBarX + 1, thumbY + 1, scrollBarX + 9, thumbY + thumbHeight - 1, BORDER_OUTER);
+
+        // 3. TRENNLINIE 1
+        graphics.fill(left + 6, top + 107, left + GUI_WIDTH - 6, top + 108, BORDER_INNER);
+
+        // 4. 3x3 CRAFTING MATRIX + RESULTAT
+        graphics.drawString(this.font, Component.literal("§bCrafting"), left + 8, top + 112, 0x00E5FF);
+        int craftX = left + 46;
+        int craftY = top + 112;
+
+        for (int r = 0; r < 3; r++) {
+            for (int c = 0; c < 3; c++) {
+                int sx = craftX + c * SLOT_SIZE;
+                int sy = craftY + r * SLOT_SIZE;
+                boolean isHovered = mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE;
+
+                drawBeveledSlot(graphics, sx, sy, isHovered);
+
+                int slot = r * 3 + c;
+                if (slot < this.craftGrid.size() && !this.craftGrid.get(slot).isEmpty()) {
+                    ItemStack st = this.craftGrid.get(slot);
+                    graphics.renderItem(st, sx + 1, sy + 1);
+                    graphics.renderItemDecorations(this.font, st, sx + 1, sy + 1);
+                    if (isHovered) hoveredStack = st;
+                }
+            }
+        }
+
+        // Crafting Pfeil
+        graphics.drawString(this.font, Component.literal("➔"), left + 116, top + 134, 0x00E5FF);
+
+        // Ergebnis-Slot
+        int resultX = left + 144;
+        int resultY = top + 130;
+        boolean resultHovered = mouseX >= resultX && mouseX < resultX + SLOT_SIZE && mouseY >= resultY && mouseY < resultY + SLOT_SIZE;
+
+        drawBeveledSlot(graphics, resultX, resultY, resultHovered);
+        graphics.fill(resultX + 1, resultY + 1, resultX + 17, resultY + 17, RESULT_SLOT_GLOW);
+
+        if (!this.craftResultPreview.isEmpty()) {
+            graphics.renderItem(this.craftResultPreview, resultX + 1, resultY + 1);
+            graphics.renderItemDecorations(this.font, this.craftResultPreview, resultX + 1, resultY + 1);
+            if (resultHovered) hoveredStack = this.craftResultPreview;
+        }
+
+        // 5. TRENNLINIE 2 & INVENTAR-BESCHRIFTUNG
+        graphics.fill(left + 6, top + 168, left + GUI_WIDTH - 6, top + 169, BORDER_INNER);
+        graphics.drawString(this.font, Component.literal("§7Spieler-Inventar"), left + 8, top + 171, 0x888888);
+
+        // 6. SPIELER-INVENTAR (Zentriert: X = left + 31)
+        int invX = left + 31;
+        int invY = top + 180;
+        ItemStack invHovered = ItemStack.EMPTY;
+
+        if (this.minecraft != null && this.minecraft.player != null) {
+            // Hauptinventar (3 Reihen)
+            for (int r = 0; r < 3; r++) {
+                for (int c = 0; c < 9; c++) {
+                    int sx = invX + c * SLOT_SIZE;
+                    int sy = invY + r * SLOT_SIZE;
+                    boolean isHovered = mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= sy && mouseY < sy + SLOT_SIZE;
+
+                    drawBeveledSlot(graphics, sx, sy, isHovered);
+
+                    int slot = 9 + r * 9 + c;
+                    ItemStack stack = this.minecraft.player.getInventory().getItem(slot);
+                    if (!stack.isEmpty()) {
+                        graphics.renderItem(stack, sx + 1, sy + 1);
+                        graphics.renderItemDecorations(this.font, stack, sx + 1, sy + 1);
+                        if (isHovered) invHovered = stack;
+                    }
+                }
+            }
+
+            // Hotbar (1 Reihe)
+            int hotbarY = top + 238;
+            for (int c = 0; c < 9; c++) {
+                int sx = invX + c * SLOT_SIZE;
+                boolean isHovered = mouseX >= sx && mouseX < sx + SLOT_SIZE && mouseY >= hotbarY && mouseY < hotbarY + SLOT_SIZE;
+
+                drawBeveledSlot(graphics, sx, hotbarY, isHovered);
+
+                ItemStack stack = this.minecraft.player.getInventory().getItem(c);
+                if (!stack.isEmpty()) {
+                    graphics.renderItem(stack, sx + 1, hotbarY + 1);
+                    graphics.renderItemDecorations(this.font, stack, sx + 1, hotbarY + 1);
+                    if (isHovered) invHovered = stack;
+                }
+            }
+        }
+
+        // 7. TOOLTIPS RENDERN
+        if (!hoveredStack.isEmpty()) {
+            List<Component> tooltip = new ArrayList<>(Screen.getTooltipFromItem(this.minecraft, hoveredStack));
+            if (hoveredCount > 0) {
+                tooltip.add(Component.literal("§bGelagert: §f" + String.format("%,d", hoveredCount)).withStyle(ChatFormatting.GRAY));
+            }
+            graphics.renderComponentTooltip(this.font, tooltip, mouseX, mouseY);
+        } else if (!invHovered.isEmpty()) {
+            graphics.renderTooltip(this.font, invHovered, mouseX, mouseY);
+        }
+    }
+
+    private static void drawBeveledSlot(GuiGraphics graphics, int x, int y, boolean hovered) {
+        graphics.fill(x, y, x + SLOT_SIZE, y + SLOT_SIZE, SLOT_BG);
+        graphics.fill(x, y, x + SLOT_SIZE, y + 1, SLOT_SHADOW);
+        graphics.fill(x, y, x + 1, y + SLOT_SIZE, SLOT_SHADOW);
+        graphics.fill(x, y + SLOT_SIZE - 1, x + SLOT_SIZE, y + SLOT_SIZE, SLOT_HIGHLIGHT);
+        graphics.fill(x + SLOT_SIZE - 1, y, x + SLOT_SIZE, y + SLOT_SIZE, SLOT_HIGHLIGHT);
+        if (hovered) {
+            graphics.fill(x + 1, y + 1, x + SLOT_SIZE - 1, y + SLOT_SIZE - 1, HOVER_GLOW);
+        }
+    }
+
+    private static String formatCount(long count) {
+        if (count >= 1_000_000) return String.format("%.1fM", count / 1_000_000.0);
+        if (count >= 1_000) return String.format("%.1fk", count / 1_000.0);
+        return String.valueOf(count);
+    }
+
+    @Override
+    public boolean isPauseScreen() {
+        return false;
+    }
+}
+"""
+)
+
+# -------------------------------------------------------------------------
+# 5. ARCHIVAR CLIENT ENTRYPOINT (Unterstützt craftGrid im Sync)
+# -------------------------------------------------------------------------
+write_file(
+    "src/main/java/net/archivar/client/ArchivarClient.java",
+    """
+package net.archivar.client;
+
+import com.mojang.blaze3d.platform.InputConstants;
+import net.archivar.network.ArchivarPayloads;
+import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
+import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
+import net.minecraft.client.KeyMapping;
+import net.minecraft.client.Minecraft;
+import org.lwjgl.glfw.GLFW;
+
+public class ArchivarClient implements ClientModInitializer {
+    public static KeyMapping openTerminalKey;
+
+    @Override
+    public void onInitializeClient() {
+        openTerminalKey = KeyBindingHelper.registerKeyBinding(new KeyMapping(
+                "key.archivar.open_terminal",
+                InputConstants.Type.KEYSYM,
+                GLFW.GLFW_KEY_K,
+                "category.archivar.general"
+        ));
+
+        ClientTickEvents.END_CLIENT_TICK.register(client -> {
+            while (openTerminalKey.consumeClick()) {
+                if (client.player != null) {
+                    ClientPlayNetworking.send(new ArchivarPayloads.RequestOpenTerminalPayload());
+                }
+            }
+        });
+
+        ClientPlayNetworking.registerGlobalReceiver(ArchivarPayloads.SyncTerminalPayload.TYPE, (payload, context) -> {
+            context.client().execute(() -> {
+                Minecraft mc = Minecraft.getInstance();
+                if (mc.screen instanceof ArchivarTerminalScreen current) {
+                    current.updateData(payload.items(), payload.craftGrid());
+                } else {
+                    mc.setScreen(new ArchivarTerminalScreen(payload.items(), payload.craftGrid()));
+                }
+            });
+        });
+    }
+}
+"""
+)
+
+# -------------------------------------------------------------------------
+# 6. SPRACHDATEIEN (Texte für Crafting & Buttons)
+# -------------------------------------------------------------------------
+de_lang = {
+    "block.archivar.storage_interface": "Lager-Anschluss (Interface)",
+    "key.archivar.open_terminal": "Archiv-Terminal öffnen",
+    "category.archivar.general": "Archivar",
+    "gui.archivar.terminal_title": "Archivar — Crafting Terminal",
+    "gui.archivar.crafting": "Crafting",
+    "gui.archivar.clear": "Leeren",
+    "gui.archivar.inventory": "Spieler-Inventar",
+    "message.archivar.interface_info": "§b[Archivar] §7Lager-Anschluss aktiv. Schließe Trichter oder Rohre an, um Items direkt ins Archiv zu leiten."
+}
+write_file("src/main/resources/assets/archivar/lang/de_de.json", json.dumps(de_lang, indent=2, ensure_ascii=False))
+
+en_lang = {
+    "block.archivar.storage_interface": "Storage Interface",
+    "key.archivar.open_terminal": "Open Archive Terminal",
+    "category.archivar.general": "Archivar",
+    "gui.archivar.terminal_title": "Archivar — Crafting Terminal",
+    "gui.archivar.crafting": "Crafting",
+    "gui.archivar.clear": "Clear",
+    "gui.archivar.inventory": "Player Inventory",
+    "message.archivar.interface_info": "§b[Archivar] §7Storage Interface active. Connect hoppers or pipes to pump items into the archive."
+}
+write_file("src/main/resources/assets/archivar/lang/en_us.json", json.dumps(en_lang, indent=2))
+
+print("\n=== Update fertig! Starte jetzt runClient im Gradle-Widget. ===")
+</file>
+
+<file path="settings.gradle">
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'archivar'
+</file>
+
+</files>

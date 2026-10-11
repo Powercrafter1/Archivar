@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "RCR",
+    "EIE"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "R": { "item": "minecraft:redstone" },
+    "C": { "item": "minecraft:chest" },
+    "E": { "item": "minecraft:ender_pearl" }
+  },
+  "result": { "id": "archivar:storage_interface", "count": 1 }
+}

@@ -1,0 +1,8 @@
+/give @s archivar:storage_interface
+/give @s minecraft:hopper 64
+/give @s netherite_pickaxe
+/give @s archivar:storage_interface 64
+/give @s minecraft:acacia_button 64
+/give @s minecraft:acacia_door 64
+/give @s minecraft:acacia_fence 64
+/give @s minecraft:acacia_fence_gate 64

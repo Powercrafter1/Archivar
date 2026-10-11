@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "archivar:block/storage_interface"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "block.archivar.storage_interface": "Lager-Anschluss (Interface)",
+  "key.archivar.open_terminal": "Archiv-Terminal öffnen",
+  "category.archivar.general": "Archivar",
+  "gui.archivar.terminal_title": "Archivar — Crafting Terminal",
+  "gui.archivar.crafting": "Crafting",
+  "gui.archivar.clear": "Leeren",
+  "gui.archivar.inventory": "Spieler-Inventar",
+  "message.archivar.interface_info": "§b[Archivar] §7Lager-Anschluss aktiv. Schließe Trichter oder Rohre an, um Items direkt ins Archiv zu leiten."
+}

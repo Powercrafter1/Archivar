@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "archivar",
+  "version": "${version}",
+  "name": "Archivar",
+  "description": "Globales Spieler-Lager mit Keybind-Terminal und 3D-Lager-Anschluss f\u00fcr Rohre und Trichter.",
+  "authors": [
+    "Super94craft"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.archivar.Archivar"
+    ],
+    "client": [
+      "net.archivar.client.ArchivarClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
